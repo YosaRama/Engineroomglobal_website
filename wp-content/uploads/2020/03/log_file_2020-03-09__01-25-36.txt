@@ -1,0 +1,25 @@
+
+---Downloaded files---
+The import files for: Main Demo Import were successfully downloaded!
+Initial max execution time = 1800
+Files info:
+Site URL = http://er-v4.dev.test
+Data file = /Applications/MAMP/htdocs/engineroomglobal/v4/wp-content/uploads/2020/03/demo-content-import-file_2020-03-09__01-25-36.xml
+Widget file = not defined!
+Customizer file = /Applications/MAMP/htdocs/engineroomglobal/v4/wp-content/uploads/2020/03/demo-customizer-import-file_2020-03-09__01-25-36.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

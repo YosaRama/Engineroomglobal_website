@@ -1,0 +1,900 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-07-08 08:33+0100\n"
+"PO-Revision-Date: 2018-10-09 20:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;_n;esc_html;esc_html__;esc_att;esc_attr__;"
+"esc_attr_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:18
+msgid "404"
+msgstr ""
+
+#: 404.php:19
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. try another link or click "
+"the button below."
+msgstr ""
+
+#: 404.php:25
+msgid "BACK TO HOME"
+msgstr ""
+
+#: comments.php:26
+msgid "One comment"
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgid "%s comment"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:62
+msgid "Name"
+msgstr ""
+
+#: comments.php:65
+msgid "Email"
+msgstr ""
+
+#: comments.php:68
+msgid "Website"
+msgstr ""
+
+#: comments.php:76
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:77
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:78
+msgid "Post Comment"
+msgstr ""
+
+#: components/header/header-1.php:38
+#, php-format
+msgid ""
+"<div class=\"menu-notice\">You have to create a menu then select Primary "
+"Menu location using&nbsp;<a href=\"%s\">Menu Builder</a></div>"
+msgstr ""
+
+#: components/post/content-grid.php:31
+msgid "By"
+msgstr ""
+
+#: components/post/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: components/post/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: components/post/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: components/post/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: functions.php:53
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:54
+msgid "Mobile Menu (Optional)"
+msgstr ""
+
+#: functions.php:55
+msgid "One Page Menu"
+msgstr ""
+
+#: functions.php:123
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:125
+msgid "This sidebar will be visible on the pages with default template option."
+msgstr ""
+
+#: header.php:25 inc/core/customizer/customizer.php:871
+msgid "Loading"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:14
+msgid "Background Image/Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:42
+msgid "Gentium Theme Settings"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:43
+msgid "Customize The gentium Theme"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:50
+msgid "General Settings"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:59
+msgid "Select Layout of the site"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:65
+msgid "Wide"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:66
+msgid "Boxed"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:73
+msgid "Primary Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:121
+msgid "Choose a color for the body."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:122
+msgid "Body Background Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:138
+msgid "Choose a color for the body Text."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:139
+msgid "Body Text Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:157
+msgid "Choose a color for the Heading."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:158
+msgid "Heading Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:180
+msgid "Choose a color for the site Links."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:181
+msgid "Links Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:199
+msgid "Choose a color for the site Links Hover."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:200
+msgid "Links Hover Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:218
+#: inc/core/customizer/customizer.php:236
+msgid "Header"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:246
+msgid "Header Layout"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:251
+msgid "Header 1"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:252
+#: inc/core/customizer/customizer.php:1934
+msgid "custom"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:259
+#: inc/core/customizer/customizer.php:491
+#: inc/core/customizer/customizer.php:1941
+msgid "Select Template"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:260
+#: inc/core/customizer/customizer.php:492
+#: inc/core/customizer/customizer.php:1942
+msgid "Choose a template created in Theme Templates."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:278
+#: inc/core/customizer/customizer.php:568
+msgid "Logo Max Width Value"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:300
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:323
+msgid "Header Navigation Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:346
+msgid "Header Navigation Hover Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:369
+msgid "Navigation Font Size"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:398
+msgid "Sub Menu Background Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:421
+msgid "Sub Menu Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:444
+msgid "Sub Menu Hover Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:469
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:479
+msgid "Show Sticky Header"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:484
+#: inc/core/customizer/customizer.php:553
+#: inc/core/customizer/customizer.php:861
+#: inc/core/customizer/customizer.php:979
+#: inc/core/customizer/customizer.php:1199
+#: inc/core/customizer/customizer.php:1354 inc/core/metabox.php:59
+#: inc/core/metabox.php:78
+msgid "Show"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:485
+#: inc/core/customizer/customizer.php:554
+#: inc/core/customizer/customizer.php:862
+#: inc/core/customizer/customizer.php:980
+#: inc/core/customizer/customizer.php:1200
+#: inc/core/customizer/customizer.php:1355 inc/core/metabox.php:60
+#: inc/core/metabox.php:79
+msgid "Hide"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:510
+msgid "Sticky Header Offset"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:527
+#: inc/core/customizer/customizer.php:805
+msgid "Sticky Header Animation"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:532
+#: inc/core/customizer/customizer.php:810
+msgid "Fade"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:533
+#: inc/core/customizer/customizer.php:811
+msgid "Slide Top"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:534
+#: inc/core/customizer/customizer.php:812
+msgid "Slide Bottom"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:548
+msgid "Show Sticky Header On Scroll up"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:600
+msgid "Mobile Header"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:610
+msgid "Mobile Logo Image"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:619
+msgid "mobile Logo Max Width Value"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:641
+msgid "Mobile Logo Heading Html Tag"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:646
+#: inc/core/customizer/customizer.php:1692
+#: inc/core/customizer/customizer.php:1827
+msgid "H1"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:647
+#: inc/core/customizer/customizer.php:1693
+#: inc/core/customizer/customizer.php:1828
+msgid "H2"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:648
+#: inc/core/customizer/customizer.php:1694
+#: inc/core/customizer/customizer.php:1829
+msgid "H3"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:649
+#: inc/core/customizer/customizer.php:1695
+#: inc/core/customizer/customizer.php:1830
+msgid "H4"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:650
+#: inc/core/customizer/customizer.php:1696
+#: inc/core/customizer/customizer.php:1831
+msgid "H5"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:651
+#: inc/core/customizer/customizer.php:1697
+#: inc/core/customizer/customizer.php:1832
+msgid "div"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:652
+#: inc/core/customizer/customizer.php:1698
+#: inc/core/customizer/customizer.php:1833
+msgid "span"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:653
+#: inc/core/customizer/customizer.php:1699
+#: inc/core/customizer/customizer.php:1834
+msgid "P"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:660
+msgid "Mobile Logo Font Size"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:682
+msgid "Choose a Background color for the Mobile Header."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:683
+msgid "Mobile Header Background Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:699
+msgid "Mobile Header Elements Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:715
+msgid "Choose a Background color for the Mobile Navigation."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:716
+msgid "Off Canvas Background Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:734
+msgid "Choose a color for the link text color."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:735
+msgid "Mobile Navigation Primary Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:755
+msgid "Choose a Menu hover link text color."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:774
+msgid "Sticky Mobile Header"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:775
+msgid "Enable Sticky Mobile Header"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:780
+msgid "Enable"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:781
+msgid "Disable"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:788
+msgid "Sticky Mobile Header Offset"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:826
+msgid "Show Sticky Mobile Header On Scroll up"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:831
+msgid "On"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:832
+msgid "Off"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:847
+msgid "Preloader"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:856
+msgid "Show / Hide The Preloader"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:869
+msgid "Prealder Loading Text"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:886
+msgid "Choose Preloader Overlay Background color."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:887
+msgid "Preloader Overlay Background Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:910
+msgid "Choose a color for the Preloader Title Text."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:911
+msgid "Preloader Title Text Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:937
+msgid "Choose a Background color for the Progress Bar."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:938
+msgid "Preloader Progress Bar Background Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:965
+msgid "Page Title"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:974
+msgid "Show / Hide Section Title"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:987
+msgid "Alignment"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:992 inc/core/metabox.php:111
+msgid "Left"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:993
+msgid "Center"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:994 inc/core/metabox.php:112
+msgid "Right"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1008
+msgid "Choose Heading Background color."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1009
+msgid "Heading Background Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1032
+msgid "Default background image for heading title."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1033
+msgid "Default Heading Background"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1049
+msgid "Heading Title Padding Top"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1078
+msgid "Heading Title Padding Bottom"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1107
+msgid "Choose a color for the Page Title Text."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1108
+msgid "Page Title Text Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1134
+msgid "Title Vertical Spacing"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1163
+msgid "Title"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1194
+msgid "Show Divider"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1214
+msgid "Divider Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1245
+msgid "Divider Width"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1279
+msgid "Divider Height"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1313
+msgid "Vertical Spacing"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1349
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1369
+msgid "breadcrumbs Link Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1400
+msgid "breadcrumbs Text Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1432
+msgid "Breadcrumbs Typography"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1468
+msgid "Typography"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1477
+msgid "Body Font"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1498
+msgid "Heading Font"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1519
+msgid "H1 Font Size"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1540
+msgid "H2 Font Size"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1561
+msgid "H3 Font Size"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1582
+msgid "H4 Font Size"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1603
+msgid "H5 Font Size"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1624
+msgid "H6 Font Size"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1646
+msgid "Blog"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1664
+msgid "Blog Posts"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1674
+msgid "Blog Style"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1679
+msgid "Grid"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1680
+msgid "Chess"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1687
+msgid "Heading Html Tag"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1706
+#: inc/core/customizer/customizer.php:1857
+msgid "Title Font Size"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1728
+msgid "Pagination Type"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1733
+msgid "Numric"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1734
+msgid "Load More"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1741
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1751
+msgid "Single Post"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1761
+msgid "Choose Overlay Background color."
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1762
+msgid "Overlay Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1778
+msgid "Single Post Title Padding Top"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1800
+msgid "Single Post Title Padding Bottom"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1822
+msgid "Single Heading Html Tag"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1841
+msgid "Post Title Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1879
+msgid "Category Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1895
+msgid "Category Font Size"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1919
+msgid "Footer"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1928
+msgid "Footer Layout"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1933
+msgid "Footer 1"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1960
+msgid "Footer Copyright Background Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:1983
+msgid "Footer Copyright Border Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:2006
+msgid "Footer Copyright text Color"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:2029
+msgid "Copyright text Font Size"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:2058
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:2076
+msgid "Additional Scripts"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:2085
+msgid "Custom Scripts"
+msgstr ""
+
+#: inc/core/customizer/customizer.php:2086
+msgid ""
+"Enter in any custom script to include in your sites. Be sure to use double "
+"quotes for strings."
+msgstr ""
+
+#: inc/core/demo-import.php:7
+msgid "Main Demo Import"
+msgstr ""
+
+#: inc/core/demo-import.php:15
+msgid "Freelancer Demo"
+msgstr ""
+
+#: inc/core/demo-import.php:23
+msgid "Studio Demo"
+msgstr ""
+
+#: inc/core/demo-import.php:31
+msgid "Clean Demo"
+msgstr ""
+
+#: inc/core/demo-import.php:39
+msgid "Creative Demo"
+msgstr ""
+
+#: inc/core/demo-import.php:47
+msgid "Startup Demo"
+msgstr ""
+
+#: inc/core/metabox.php:38
+msgid "Page Settings"
+msgstr ""
+
+#: inc/core/metabox.php:53
+msgid "Section Title"
+msgstr ""
+
+#: inc/core/metabox.php:54
+msgid "Show / Hide The Section Title"
+msgstr ""
+
+#: inc/core/metabox.php:58 inc/core/metabox.php:77 inc/core/metabox.php:89
+msgid "Default"
+msgstr ""
+
+#: inc/core/metabox.php:65
+msgid "Section Title Background"
+msgstr ""
+
+#: inc/core/metabox.php:66
+msgid "Upload an image or enter a URL for Section Title"
+msgstr ""
+
+#: inc/core/metabox.php:72
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/core/metabox.php:73
+msgid "show / Hide The the Breadcrumbs on this page"
+msgstr ""
+
+#: inc/core/metabox.php:84 inc/core/metabox.php:105
+msgid "Page Layout"
+msgstr ""
+
+#: inc/core/metabox.php:85 inc/core/metabox.php:106
+msgid "Choose a Layout for Your Page"
+msgstr ""
+
+#: inc/core/metabox.php:90
+msgid "boxed"
+msgstr ""
+
+#: inc/core/metabox.php:91
+msgid "wide"
+msgstr ""
+
+#: inc/core/metabox.php:97
+msgid "Sidebar on Default template Pages"
+msgstr ""
+
+#: inc/core/metabox.php:110
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/core/theme-functions.php:84
+msgid "Load More Posts"
+msgstr ""
+
+#: inc/core/theme-functions.php:112 inc/core/woocommerce.php:232
+msgid "&laquo;"
+msgstr ""
+
+#: inc/core/theme-functions.php:113 inc/core/woocommerce.php:233
+msgid "&raquo;"
+msgstr ""
+
+#: inc/core/theme-functions.php:184
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/core/theme-functions.php:197
+msgid "Search Results Found"
+msgstr ""
+
+#: inc/core/theme-functions.php:215
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: inc/core/theme-functions.php:220
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: inc/core/theme-functions.php:225
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: inc/core/theme-functions.php:241
+msgid "404: Page Not Found"
+msgstr ""
+
+#: inc/core/theme-functions.php:273
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/core/theme-functions.php:276
+msgid "Comment awaiting approval"
+msgstr ""
+
+#: inc/core/theme-functions.php:283
+msgid "Reply"
+msgstr ""
+
+#: inc/core/theme-functions.php:284
+msgid "Edit"
+msgstr ""
+
+#: single.php:59
+msgid "Written by:"
+msgstr ""
+
+#: single.php:63
+msgid "Posted on:"
+msgstr ""
+
+#: single.php:68
+msgid "Tags:"
+msgstr ""

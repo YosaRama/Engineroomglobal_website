@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Sitemap: https://wordpress-344961-1730871.cloudwaysapps.com/sitemap_index.xml

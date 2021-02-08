@@ -1,0 +1,135 @@
+.wps-ic-restore-single {
+  margin-left: 0px !important;
+  background: #404fd7 !important;
+  border-color:#404fd7 !important;
+}
+
+#wps_ic_compressed {
+  width: 30px;
+}
+
+.column-wps_ic_compressed {
+  text-align: center;
+}
+
+.column-wps_ic_compressed i {
+  font-size: 24px;
+  width: auto;
+  height: auto;
+}
+
+.column-wps_ic_compressed i.dashicons-yes {
+  color: #00cf21;
+}
+
+.column-wps_ic_compressed i.dashicons-warning {
+  color: #ff6666;
+}
+
+.wps-ic-media-bulk {
+  background: #fff;
+  margin-bottom: 20px;
+  border-left:2px solid #0a9bd6;
+  padding: 20px;
+}
+
+
+
+p.important {
+  font-weight:bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.wps-ic-bulk-progress-container,
+.wps-ic-bulk-progress {
+  text-align: center;
+  margin-bottom: 20px;
+  -webkit-transition: all 2s ease-in;
+  -moz-transition: all 2s ease-in;
+  -o-transition: all 2s ease-in;
+  transition: all 2s ease-in;
+}
+
+.wps-ic-bulk-progress-bar {
+  position: relative;
+  text-align: left;
+  max-width: 700px;
+  height: 40px;
+  width: 100%;
+  display: inline-block;
+  border-radius:5px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.wps-ic-bulk-progress-bar-inner {
+  display: inline-block;
+  width: 0%;
+  height: 40px;
+  background-color: #0a9bd6;
+  background-size: 30px 30px;
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+  transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+  transparent 75%, transparent);
+
+  animation: animate-stripes 3s linear infinite;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+@keyframes animate-stripes {
+  0% {background-position: 0 0;} 100% {background-position: 60px 0;}
+}
+
+.wps-ic-bulk-progress-bar-inner span {
+  position: absolute;
+  text-align: center;
+  top:0px;
+  left:0px;
+  right: 0px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #000;
+}
+
+.wps-ic-bulk-progress-bar-inner span.white {
+  color: #fff;
+}
+
+
+.wp-ic-compare-loading,
+.wp-ic-pro-preview-loading,
+.wp-ic-loading {
+  width: 50px;
+  height: 50px;
+}
+
+.wp-ic-compare-loading *,
+.wp-ic-pro-preview-loading *,
+.wp-ic-loading * {
+  width: 100%;
+}
+
+
+.wps-ic-bulk-restored>div {
+  border-radius: 5px;
+  overflow: hidden;
+  line-height: normal !important;
+  box-sizing: border-box;
+}
+
+.wps-ic-bulk-restored {
+  width: 350px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.wps-ic-bulk-restored img {
+  max-width: 100%;
+  display: inline-block;
+}

@@ -1,0 +1,99 @@
+___SPINNER___ {
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  border-radius: 50%;
+}
+___SPINNER___:before, ___SPINNER___:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  -webkit-animation: 1s cf7cs-11 linear infinite;
+          animation: 1s cf7cs-11 linear infinite;
+}
+___SPINNER___:before {
+  -webkit-transform: rotateX(70deg);
+          transform: rotateX(70deg);
+}
+___SPINNER___:after {
+  -webkit-transform: rotateY(70deg);
+          transform: rotateY(70deg);
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+@-webkit-keyframes cf7cs-11 {
+  0%,
+	100% {
+    -webkit-box-shadow: 4px 0px 0 0px currentcolor;
+            box-shadow: 4px 0px 0 0px currentcolor;
+  }
+  12% {
+    -webkit-box-shadow: 4px 4px 0 0 currentcolor;
+            box-shadow: 4px 5px 0 0 currentcolor;
+  }
+  25% {
+    -webkit-box-shadow: 0 4px 0 0px currentcolor;
+            box-shadow: 0 4px 0 0px currentcolor;
+  }
+  37% {
+    -webkit-box-shadow: -4px 4px 0 0 currentcolor;
+            box-shadow: -4px 4px 0 0 currentcolor;
+  }
+  50% {
+    -webkit-box-shadow: -4px 0 0 0 currentcolor;
+            box-shadow: -4px 0 0 0 currentcolor;
+  }
+  62% {
+    -webkit-box-shadow: -4px -4px 0 0 currentcolor;
+            box-shadow: -4px -4px 0 0 currentcolor;
+  }
+  75% {
+    -webkit-box-shadow: 0px -4px 0 0 currentcolor;
+            box-shadow: 0px -4px 0 0 currentcolor;
+  }
+  87% {
+    -webkit-box-shadow: 4px -4px 0 0 currentcolor;
+            box-shadow: 4px -4px 0 0 currentcolor;
+  }
+}
+@keyframes cf7cs-11 {
+  0%,
+	100% {
+    -webkit-box-shadow: 4px 0px 0 0px currentcolor;
+            box-shadow: 4px 0px 0 0px currentcolor;
+  }
+  12% {
+    -webkit-box-shadow: 4px 4px 0 0 currentcolor;
+            box-shadow: 4px 4px 0 0 currentcolor;
+  }
+  25% {
+    -webkit-box-shadow: 0 4px 0 0px currentcolor;
+            box-shadow: 0 4px 0 0px currentcolor;
+  }
+  37% {
+    -webkit-box-shadow: -4px 4px 0 0 currentcolor;
+            box-shadow: -4px 4px 0 0 currentcolor;
+  }
+  50% {
+    -webkit-box-shadow: -4px 0 0 0 currentcolor;
+            box-shadow: -4px 0 0 0 currentcolor;
+  }
+  62% {
+    -webkit-box-shadow: -4px -4px 0 0 currentcolor;
+            box-shadow: -4px -4px 0 0 currentcolor;
+  }
+  75% {
+    -webkit-box-shadow: 0px -4px 0 0 currentcolor;
+            box-shadow: 0px -4px 0 0 currentcolor;
+  }
+  87% {
+    -webkit-box-shadow: 4px -4px 0 0 currentcolor;
+            box-shadow: 4px -4px 0 0 currentcolor;
+  }
+}

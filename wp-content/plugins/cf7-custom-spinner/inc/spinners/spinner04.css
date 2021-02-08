@@ -1,0 +1,42 @@
+___SPINNER___ {
+  border: 4px solid transparent;
+  border-top-color: currentcolor;
+  border-radius: 50%;
+  -webkit-animation: 1s cf7cs-04 linear infinite;
+          animation: 1s cf7cs-04 linear infinite;
+  position: relative;
+}
+___SPINNER___:before {
+  content: '';
+  display: block;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  border: 4px solid currentcolor;
+  border-radius: 50%;
+  opacity: .5;
+}
+
+@-webkit-keyframes cf7cs-04 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes cf7cs-04 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}

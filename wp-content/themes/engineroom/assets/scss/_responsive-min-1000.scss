@@ -1,0 +1,71 @@
+@media screen and (min-width: 1001px){
+  body.home{
+    .onepage-wrapper{
+        height: 100vh;
+        .fullpage-section{
+            height: 100vh !important;
+            z-index: 1;
+        }
+    }
+    .pixe_sticky_header_holder.show_sticky{
+        transition: all .4s ease;
+    }
+    header{
+        > .pixe_header_holder{
+            position: fixed;
+            top:0;
+            width: 100%;
+            z-index: 1;
+            transform: translateY(-100%);
+            transition: transform .9s 1s ease-out;
+            opacity: 0;
+            visibility: hidden;
+            &.show-fast{
+                transition: transform .7s ease-out;
+            }
+        }
+        .pixe_sticky_header_holder.show_sticky{
+            position: fixed;
+        }
+    }
+    .elementor-23 .elementor-element.elementor-element-6705eefe{
+        margin-top: 0;
+    }
+    &.show-homepage-banner{
+        header{
+            > .pixe_header_holder{
+                &.show-header{
+                    opacity: 1;
+                    visibility: visible;
+                    transform: translateY(0);
+                    z-index: 9;
+                }
+            }
+        }
+    }
+    .elementor-104 .elementor-element.elementor-element-3f9125c > .elementor-container{
+        min-height: 90px;
+    }
+    .elementor-23 .elementor-element.elementor-element-d05e91f > .elementor-widget-container,
+    .elementor-23 .elementor-element.elementor-element-48dec36b > .elementor-widget-container{
+        margin: 0px 0px 0px 0px;
+    }
+    .elementor-23 .elementor-element.elementor-element-7e5e353 .elementor-heading-title,
+    .elementor-23 .elementor-element.elementor-element-2e87bca0 .elementor-heading-title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .elementor-23 .elementor-element.elementor-element-7e5e353 > .elementor-widget-container,
+    .elementor-widget.elementor-widget-heading{
+        margin: 0;
+    }
+    .home-arrow-section{
+        margin: 0;
+        padding-top: 140px;
+    }
+    .homepage-footer{
+        background-color: #2f2f2f!important;
+        padding-top: 190px;
+    }
+  }
+}

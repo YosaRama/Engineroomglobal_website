@@ -1,0 +1,60 @@
+@media screen and (max-width: 1280px) {
+  .section-title.thumbnail-bg {
+    max-height: 410px;
+  }
+  .pricing-service-container
+    .pricing-service-item
+    .pricing-service-detail
+    .pricing-service-subtitle
+    > div {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  // ================================== LANDING PAGE =================================================== //
+
+  // HEADER SECTION
+  .banner-form .lp-title {
+    h1 {
+      font-size: 54px !important ;
+      line-height: 65px !important ;
+    }
+  }
+
+  .lp-header-image {
+    max-width: 100%;
+    img {
+      max-width: 530px;
+    }
+  }
+
+  .swiper-slide-bg {
+    background-position: calc(100% - 120px) 40% !important;
+  }
+  // TEAM SECTION
+  .lp-team-section {
+    .team-box {
+      padding: 0 55px 0 0;
+    }
+  }
+
+  // Drive Quality Section
+
+  .lp-dqt-section {
+    .dqt-title {
+      width: 70%;
+    }
+    .dqt-subtitle {
+      h2 {
+        font-size: 18px;
+      }
+    }
+
+    .dqt-content {
+      color: $color_black;
+      font-size: 17px;
+    }
+  }
+
+  //========================================================================================================
+}

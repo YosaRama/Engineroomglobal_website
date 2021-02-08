@@ -1,0 +1,147 @@
+#pp-cf7-custom-spinner-settings h2 {
+  padding-bottom: 12px;
+}
+
+#pp-cf7-custom-spinner-settings .postbox {
+  margin-top: 32px;
+}
+
+#pp-cf7-custom-spinner-settings .form-table {
+  display: none;
+}
+
+#cf7-custom-spinner-admin>li {
+  float: left;
+  width: 33.3%;
+}
+
+@media screen and (max-width: 1099px) {
+  #cf7-custom-spinner-admin>li {
+    float: none;
+    width: 300px;
+    margin: 0 auto 24px auto;
+  }
+}
+
+#cf7-custom-spinner-admin::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+
+#cf7-custom-spinner-admin-type .container {
+  position: relative;
+}
+
+#cf7-custom-spinner-type-select {
+  margin-left: 60px;
+}
+
+.unslider-arrow {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 40px;
+  color: #104060;
+  border: 1px solid #104060;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.unslider-arrow:hover, .unslider-arrow:focus {
+  background-color: #104060;
+  color: #fff;
+}
+
+.unslider-arrow::before {
+  font-family: dashicons;
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+  
+
+.unslider-arrow.next {
+  left: 202px;
+}
+
+.unslider-arrow.prev::before {
+  content: "\f341";
+}
+
+.unslider-arrow.next::before {
+  content: "\f345";
+}
+
+#cf7-custom-spinner-type-select, #cf7-custom-spinner-type-select li {
+  width: 120px;
+  height: 120px;
+}
+
+#cf7-custom-spinner-type-select {
+  border: 1px solid #104060;
+  border-radius: 4px;
+}
+
+#cf7-custom-spinner-type-select {
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+#cf7-custom-spinner-color-select {
+  width: 256px;
+  border: 2px solid #104060;
+  padding: 2px;
+}
+
+#cf7-custom-spinner-color-select li {
+  width: 32px;
+  height: 32px;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+#cf7-custom-spinner-color-select li:nth-child(9n) {
+  clear: both;
+}
+
+#cf7-custom-spinner-color-select li input[type=radio] {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #fff;
+  border-radius: 0;
+  background-color: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+#cf7-custom-spinner-color-select li input[type=radio]:hover, #cf7-custom-spinner-color-select li input[type=radio]:focus {
+  border-color: #A5B7C3;
+}
+
+#cf7-custom-spinner-color-select li input[type=radio]:checked {
+  border-color: #4B6F87;
+}
+
+#cf7-custom-spinner-color-select li input[type=radio]:checked:before {
+  content: none;
+}
+
+#pp-cf7-custom-spinner-settings select {
+  border: 1px solid #104060;
+  border-radius:4px;
+  height: 36px;
+  line-height: 36px;
+}
+
+#cf7-custom-spinner-test {
+  width: 100%;
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 1199px){
+  header#masthead{
+    display: block !important;
+    section{
+      .elementor-row{
+        padding: 0 40px;
+      }
+    }
+    .pixe_header_holder .elementor-widget-image .elementor-image > a img, .pixe_header_holder .elementor-widget-image .elementor-image figure > a img{
+      width: 125px;
+    }
+  }
+  header#mobile-header{
+    display: none !important;
+  }
+}

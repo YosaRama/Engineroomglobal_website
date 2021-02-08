@@ -1,0 +1,2063 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Premium Addons for Elementor\n"
+"POT-Creation-Date: 2018-11-13 13:39+0000\n"
+"PO-Revision-Date: 2018-02-15 10:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: Leap13\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets/js\n"
+"X-Poedit-SearchPathExcluded-1: admin/assets/js\n"
+
+#: admin/settings-page.php:86 pixerex-elements-for-elementor.php:210
+msgid "Pixerex Elements"
+msgstr ""
+
+#: admin/settings-page.php:102 widgets/pr-navbar.php:13
+#: widgets/pr-navbar.php:144
+msgid "Navbar"
+msgstr ""
+
+#: admin/settings-page.php:109 widgets/pr-logo.php:13 widgets/pr-logo.php:30
+msgid "Site Logo"
+msgstr ""
+
+#: admin/settings-page.php:118 widgets/pr-search-box.php:13
+msgid "Search Box"
+msgstr ""
+
+#: admin/settings-page.php:125 widgets/pr-fancytext.php:13
+msgid "Animated Text"
+msgstr ""
+
+#: admin/settings-page.php:134 widgets/pr-blog.php:13
+msgid "Posts"
+msgstr ""
+
+#: admin/settings-page.php:141 widgets/pr-countdown.php:11
+#: widgets/pr-countdown.php:34
+msgid "Countdown"
+msgstr ""
+
+#: admin/settings-page.php:151 widgets/pr-dual-header.php:13
+#: widgets/pr-dual-header.php:29
+msgid "Dual Heading"
+msgstr ""
+
+#: admin/settings-page.php:159 widgets/pr-maps.php:18 widgets/pr-maps.php:90
+msgid "Google Maps"
+msgstr ""
+
+#: admin/settings-page.php:169 widgets/pr-person.php:13
+msgid "Team Member"
+msgstr ""
+
+#: admin/settings-page.php:176 widgets/pr-progressbar.php:13
+#: widgets/pr-progressbar.php:102
+msgid "Progress Bar"
+msgstr ""
+
+#: admin/settings-page.php:187
+msgid "Testimonials"
+msgstr ""
+
+#: admin/settings-page.php:195 widgets/pr-pricing-table.php:9
+msgid "Pricing Table"
+msgstr ""
+
+#: admin/settings-page.php:205 widgets/pr-contactform.php:13
+msgid "Contact Form7"
+msgstr ""
+
+#: admin/settings-page.php:213
+msgid "Portfolio"
+msgstr ""
+
+#: admin/settings-page.php:223 widgets/pr-services.php:13
+msgid "Services"
+msgstr ""
+
+#: admin/settings-page.php:231 widgets/pr-infobox.php:13
+msgid "Infobox"
+msgstr ""
+
+#: admin/settings-page.php:241 widgets/pr-person-carousel.php:14
+msgid "Team Carousel"
+msgstr ""
+
+#: admin/settings-page.php:249 widgets/pr-image-carousel.php:14
+msgid "Image Carousel"
+msgstr ""
+
+#: admin/settings-page.php:274
+msgid "Enable Maps API JS File:"
+msgstr ""
+
+#: widgets/pr-blog.php:33
+msgid "Post Settings"
+msgstr ""
+
+#: widgets/pr-blog.php:41
+msgid "Post Type"
+msgstr ""
+
+#: widgets/pr-blog.php:52 widgets/pr-grid.php:37 widgets/pr-grid.php:51
+msgid "Categories"
+msgstr ""
+
+#: widgets/pr-blog.php:67
+msgid "Number of Posts"
+msgstr ""
+
+#: widgets/pr-blog.php:77
+msgid "Post Offset"
+msgstr ""
+
+#: widgets/pr-blog.php:86
+msgid "Order By"
+msgstr ""
+
+#: widgets/pr-blog.php:97
+msgid "Order"
+msgstr ""
+
+#: widgets/pr-blog.php:113
+msgid "Layout Settings"
+msgstr ""
+
+#: widgets/pr-blog.php:120 widgets/pr-grid.php:167
+msgid "Columns"
+msgstr ""
+
+#: widgets/pr-blog.php:124 widgets/pr-grid.php:174
+msgid "1"
+msgstr ""
+
+#: widgets/pr-blog.php:125 widgets/pr-grid.php:175
+msgid "2"
+msgstr ""
+
+#: widgets/pr-blog.php:126 widgets/pr-grid.php:176
+msgid "3"
+msgstr ""
+
+#: widgets/pr-blog.php:127 widgets/pr-grid.php:177
+msgid "4"
+msgstr ""
+
+#: widgets/pr-blog.php:128 widgets/pr-grid.php:178
+msgid "5"
+msgstr ""
+
+#: widgets/pr-blog.php:136
+msgid "Show Posts Featured Image"
+msgstr ""
+
+#: widgets/pr-blog.php:158
+msgid "Show Title"
+msgstr ""
+
+#: widgets/pr-blog.php:167
+msgid "Excerpt"
+msgstr ""
+
+#: widgets/pr-blog.php:176
+msgid "Excerpt Length"
+msgstr ""
+
+#: widgets/pr-blog.php:188
+msgid "Posts Meta"
+msgstr ""
+
+#: widgets/pr-blog.php:197
+msgid "Author Meta"
+msgstr ""
+
+#: widgets/pr-blog.php:208
+msgid "Date Meta"
+msgstr ""
+
+#: widgets/pr-blog.php:219
+msgid "Categories Meta"
+msgstr ""
+
+#: widgets/pr-blog.php:232
+msgid "Show Read More Button"
+msgstr ""
+
+#: widgets/pr-blog.php:241
+msgid "Read More Text"
+msgstr ""
+
+#: widgets/pr-blog.php:243 widgets/pr-services.php:66
+msgid "Read More"
+msgstr ""
+
+#: widgets/pr-blog.php:256
+msgid "Column"
+msgstr ""
+
+#: widgets/pr-blog.php:264
+msgid "Spacing Between Items"
+msgstr ""
+
+#: widgets/pr-blog.php:278
+msgid "Post Item"
+msgstr ""
+
+#: widgets/pr-blog.php:287 widgets/pr-contactform.php:457
+#: widgets/pr-contactform.php:513 widgets/pr-countdown.php:333
+#: widgets/pr-fancytext.php:329 widgets/pr-fancytext.php:379
+#: widgets/pr-fancytext.php:426 widgets/pr-grid.php:537
+#: widgets/pr-grid.php:636 widgets/pr-grid.php:759
+#: widgets/pr-image-carousel.php:454 widgets/pr-image-carousel.php:514
+#: widgets/pr-infobox.php:366 widgets/pr-infobox.php:607
+#: widgets/pr-infobox.php:687 widgets/pr-infobox.php:855
+#: widgets/pr-infobox.php:918 widgets/pr-infobox.php:1231
+#: widgets/pr-infobox.php:1277 widgets/pr-navbar.php:177
+#: widgets/pr-navbar.php:257 widgets/pr-navbar.php:358
+#: widgets/pr-person-carousel.php:331 widgets/pr-person-carousel.php:760
+#: widgets/pr-person-carousel.php:923 widgets/pr-person-carousel.php:983
+#: widgets/pr-person.php:204 widgets/pr-person.php:551
+#: widgets/pr-pricing-table.php:551 widgets/pr-services.php:96
+#: widgets/pr-services.php:395 widgets/pr-services.php:494
+#: widgets/pr-testimonials.php:687 widgets/pr-testimonials.php:744
+msgid "Background Color"
+msgstr ""
+
+#: widgets/pr-blog.php:299 widgets/pr-blog.php:865 widgets/pr-blog.php:1113
+#: widgets/pr-contactform.php:251 widgets/pr-contactform.php:415
+#: widgets/pr-countdown.php:349 widgets/pr-dual-header.php:267
+#: widgets/pr-dual-header.php:402 widgets/pr-grid.php:384
+#: widgets/pr-grid.php:444 widgets/pr-grid.php:496 widgets/pr-grid.php:594
+#: widgets/pr-grid.php:693 widgets/pr-grid.php:827 widgets/pr-infobox.php:378
+#: widgets/pr-logo.php:121 widgets/pr-logo.php:201 widgets/pr-maps.php:313
+#: widgets/pr-maps.php:395 widgets/pr-maps.php:487 widgets/pr-navbar.php:83
+#: widgets/pr-navbar.php:130 widgets/pr-person-carousel.php:535
+#: widgets/pr-person.php:326 widgets/pr-pricing-table.php:410
+#: widgets/pr-pricing-table.php:488 widgets/pr-pricing-table.php:565
+#: widgets/pr-pricing-table.php:662 widgets/pr-pricing-table.php:749
+#: widgets/pr-pricing-table.php:932 widgets/pr-pricing-table.php:1098
+#: widgets/pr-pricing-table.php:1190 widgets/pr-pricing-table.php:1315
+#: widgets/pr-pricing-table.php:1386 widgets/pr-services.php:239
+#: widgets/pr-services.php:430 widgets/pr-services.php:516
+#: widgets/pr-testimonials.php:307
+msgid "Padding"
+msgstr ""
+
+#: widgets/pr-blog.php:312
+msgid "Border for post"
+msgstr ""
+
+#: widgets/pr-blog.php:320 widgets/pr-blog.php:877 widgets/pr-blog.php:1125
+#: widgets/pr-contactform.php:271 widgets/pr-contactform.php:480
+#: widgets/pr-countdown.php:366 widgets/pr-dual-header.php:233
+#: widgets/pr-dual-header.php:368 widgets/pr-grid.php:351
+#: widgets/pr-grid.php:561 widgets/pr-grid.php:660 widgets/pr-grid.php:796
+#: widgets/pr-image-carousel.php:326 widgets/pr-image-carousel.php:479
+#: widgets/pr-infobox.php:1197 widgets/pr-logo.php:158 widgets/pr-maps.php:453
+#: widgets/pr-navbar.php:221 widgets/pr-navbar.php:321
+#: widgets/pr-navbar.php:422 widgets/pr-person-carousel.php:420
+#: widgets/pr-person-carousel.php:459 widgets/pr-person-carousel.php:557
+#: widgets/pr-person-carousel.php:780 widgets/pr-person-carousel.php:948
+#: widgets/pr-person.php:265 widgets/pr-person.php:348
+#: widgets/pr-person.php:571 widgets/pr-pricing-table.php:377
+#: widgets/pr-pricing-table.php:455 widgets/pr-pricing-table.php:588
+#: widgets/pr-pricing-table.php:631 widgets/pr-pricing-table.php:1068
+#: widgets/pr-pricing-table.php:1282 widgets/pr-pricing-table.php:1353
+#: widgets/pr-progressbar.php:125 widgets/pr-search-box.php:139
+#: widgets/pr-search-box.php:206 widgets/pr-services.php:154
+#: widgets/pr-services.php:261 widgets/pr-services.php:454
+#: widgets/pr-services.php:528 widgets/pr-testimonials.php:337
+#: widgets/pr-testimonials.php:376 widgets/pr-testimonials.php:514
+#: widgets/pr-testimonials.php:711
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/pr-blog.php:338 widgets/pr-blog.php:346 widgets/pr-services.php:178
+msgid "Hover Box Shadow"
+msgstr ""
+
+#: widgets/pr-blog.php:356 widgets/pr-grid.php:403 widgets/pr-logo.php:40
+#: widgets/pr-maps.php:110 widgets/pr-maps.php:270
+#: widgets/pr-pricing-table.php:81 widgets/pr-pricing-table.php:283
+#: widgets/pr-pricing-table.php:684 widgets/pr-progressbar.php:42
+#: widgets/pr-progressbar.php:203 widgets/pr-services.php:47
+#: widgets/pr-services.php:275
+msgid "Title"
+msgstr ""
+
+#: widgets/pr-blog.php:367 widgets/pr-blog.php:662
+#: widgets/pr-contactform.php:439 widgets/pr-grid.php:517
+#: widgets/pr-image-carousel.php:310 widgets/pr-image-carousel.php:433
+#: widgets/pr-infobox.php:359 widgets/pr-infobox.php:587
+#: widgets/pr-infobox.php:818 widgets/pr-infobox.php:998
+#: widgets/pr-infobox.php:1213 widgets/pr-navbar.php:154
+#: widgets/pr-navbar.php:436 widgets/pr-person-carousel.php:404
+#: widgets/pr-person-carousel.php:743 widgets/pr-person-carousel.php:902
+#: widgets/pr-person.php:534 widgets/pr-pricing-table.php:336
+#: widgets/pr-pricing-table.php:1256 widgets/pr-services.php:388
+#: widgets/pr-testimonials.php:321 widgets/pr-testimonials.php:667
+msgid "Normal"
+msgstr ""
+
+#: widgets/pr-blog.php:374 widgets/pr-blog.php:398 widgets/pr-blog.php:585
+#: widgets/pr-countdown.php:308 widgets/pr-countdown.php:387
+#: widgets/pr-fancytext.php:304 widgets/pr-fancytext.php:354
+#: widgets/pr-fancytext.php:401 widgets/pr-grid.php:410
+#: widgets/pr-grid.php:463 widgets/pr-grid.php:523 widgets/pr-grid.php:622
+#: widgets/pr-grid.php:714 widgets/pr-image-carousel.php:439
+#: widgets/pr-image-carousel.php:499 widgets/pr-infobox.php:1012
+#: widgets/pr-infobox.php:1088 widgets/pr-logo.php:183 widgets/pr-maps.php:278
+#: widgets/pr-maps.php:361 widgets/pr-person-carousel.php:578
+#: widgets/pr-person-carousel.php:622 widgets/pr-person-carousel.php:667
+#: widgets/pr-person-carousel.php:908 widgets/pr-person-carousel.php:968
+#: widgets/pr-person.php:369 widgets/pr-person.php:413
+#: widgets/pr-person.php:458 widgets/pr-pricing-table.php:524
+#: widgets/pr-pricing-table.php:695 widgets/pr-pricing-table.php:789
+#: widgets/pr-pricing-table.php:859 widgets/pr-pricing-table.php:964
+#: widgets/pr-pricing-table.php:995 widgets/pr-pricing-table.php:1129
+#: widgets/pr-pricing-table.php:1216 widgets/pr-progressbar.php:211
+#: widgets/pr-progressbar.php:257 widgets/pr-services.php:283
+#: widgets/pr-services.php:339 widgets/pr-testimonials.php:673
+#: widgets/pr-testimonials.php:730
+msgid "Color"
+msgstr ""
+
+#: widgets/pr-blog.php:391 widgets/pr-blog.php:910
+#: widgets/pr-contactform.php:497 widgets/pr-grid.php:606
+#: widgets/pr-image-carousel.php:350 widgets/pr-image-carousel.php:493
+#: widgets/pr-infobox.php:420 widgets/pr-infobox.php:659
+#: widgets/pr-infobox.php:890 widgets/pr-infobox.php:1108
+#: widgets/pr-infobox.php:1259 widgets/pr-logo.php:103
+#: widgets/pr-navbar.php:235 widgets/pr-navbar.php:461
+#: widgets/pr-person-carousel.php:443 widgets/pr-person-carousel.php:812
+#: widgets/pr-person-carousel.php:962 widgets/pr-person.php:603
+#: widgets/pr-pricing-table.php:429 widgets/pr-pricing-table.php:1327
+#: widgets/pr-services.php:487 widgets/pr-testimonials.php:360
+#: widgets/pr-testimonials.php:724
+msgid "Hover"
+msgstr ""
+
+#: widgets/pr-blog.php:426 widgets/pr-blog.php:548 widgets/pr-blog.php:607
+#: widgets/pr-blog.php:1160 widgets/pr-contactform.php:548
+#: widgets/pr-dual-header.php:118 widgets/pr-fancytext.php:98
+#: widgets/pr-logo.php:50 widgets/pr-maps.php:325 widgets/pr-maps.php:407
+#: widgets/pr-navbar.php:59 widgets/pr-navbar.php:104
+#: widgets/pr-pricing-table.php:189 widgets/pr-search-box.php:37
+msgid "Alignment"
+msgstr ""
+
+#: widgets/pr-blog.php:431 widgets/pr-blog.php:553 widgets/pr-blog.php:612
+#: widgets/pr-blog.php:1165 widgets/pr-contactform.php:553
+#: widgets/pr-dual-header.php:122 widgets/pr-fancytext.php:102
+#: widgets/pr-grid.php:268 widgets/pr-infobox.php:175 widgets/pr-logo.php:54
+#: widgets/pr-maps.php:329 widgets/pr-maps.php:411 widgets/pr-navbar.php:63
+#: widgets/pr-navbar.php:108 widgets/pr-person-carousel.php:348
+#: widgets/pr-person.php:221 widgets/pr-pricing-table.php:193
+#: widgets/pr-search-box.php:41 widgets/pr-services.php:113
+#: widgets/pr-testimonials.php:274
+msgid "Left"
+msgstr ""
+
+#: widgets/pr-blog.php:435 widgets/pr-blog.php:557 widgets/pr-blog.php:616
+#: widgets/pr-blog.php:1169 widgets/pr-contactform.php:557
+#: widgets/pr-dual-header.php:126 widgets/pr-fancytext.php:106
+#: widgets/pr-grid.php:272 widgets/pr-infobox.php:179 widgets/pr-logo.php:58
+#: widgets/pr-maps.php:333 widgets/pr-maps.php:415 widgets/pr-navbar.php:67
+#: widgets/pr-navbar.php:112 widgets/pr-person-carousel.php:352
+#: widgets/pr-person.php:225 widgets/pr-pricing-table.php:197
+#: widgets/pr-search-box.php:45 widgets/pr-services.php:117
+#: widgets/pr-testimonials.php:278
+msgid "Center"
+msgstr ""
+
+#: widgets/pr-blog.php:439 widgets/pr-blog.php:561 widgets/pr-blog.php:620
+#: widgets/pr-blog.php:1173 widgets/pr-contactform.php:561
+#: widgets/pr-dual-header.php:130 widgets/pr-fancytext.php:110
+#: widgets/pr-grid.php:276 widgets/pr-infobox.php:183 widgets/pr-logo.php:62
+#: widgets/pr-maps.php:337 widgets/pr-maps.php:419 widgets/pr-navbar.php:71
+#: widgets/pr-navbar.php:116 widgets/pr-person-carousel.php:356
+#: widgets/pr-person.php:229 widgets/pr-pricing-table.php:201
+#: widgets/pr-search-box.php:49 widgets/pr-services.php:121
+#: widgets/pr-testimonials.php:282
+msgid "Right"
+msgstr ""
+
+#: widgets/pr-blog.php:452 widgets/pr-blog.php:536 widgets/pr-blog.php:633
+#: widgets/pr-contactform.php:238 widgets/pr-contactform.php:427
+#: widgets/pr-dual-header.php:255 widgets/pr-dual-header.php:390
+#: widgets/pr-grid.php:372 widgets/pr-grid.php:433 widgets/pr-grid.php:485
+#: widgets/pr-grid.php:583 widgets/pr-grid.php:682 widgets/pr-grid.php:815
+#: widgets/pr-infobox.php:512 widgets/pr-infobox.php:573
+#: widgets/pr-infobox.php:804 widgets/pr-infobox.php:1032
+#: widgets/pr-maps.php:301 widgets/pr-maps.php:384 widgets/pr-maps.php:475
+#: widgets/pr-person-carousel.php:523 widgets/pr-person-carousel.php:600
+#: widgets/pr-person-carousel.php:644 widgets/pr-person-carousel.php:689
+#: widgets/pr-person.php:314 widgets/pr-person.php:391
+#: widgets/pr-person.php:435 widgets/pr-person.php:480
+#: widgets/pr-pricing-table.php:399 widgets/pr-pricing-table.php:477
+#: widgets/pr-pricing-table.php:643 widgets/pr-pricing-table.php:730
+#: widgets/pr-pricing-table.php:839 widgets/pr-pricing-table.php:884
+#: widgets/pr-pricing-table.php:913 widgets/pr-pricing-table.php:1080
+#: widgets/pr-pricing-table.php:1171 widgets/pr-pricing-table.php:1304
+#: widgets/pr-pricing-table.php:1375 widgets/pr-progressbar.php:182
+#: widgets/pr-progressbar.php:237 widgets/pr-progressbar.php:282
+#: widgets/pr-services.php:227 widgets/pr-services.php:317
+#: widgets/pr-services.php:361 widgets/pr-services.php:442
+#: widgets/pr-testimonials.php:294 widgets/pr-testimonials.php:432
+#: widgets/pr-testimonials.php:492 widgets/pr-testimonials.php:557
+#: widgets/pr-testimonials.php:600
+msgid "Margin"
+msgstr ""
+
+#: widgets/pr-blog.php:466
+msgid "Meta"
+msgstr ""
+
+#: widgets/pr-blog.php:475
+msgid "Mete Layout"
+msgstr ""
+
+#: widgets/pr-blog.php:490 widgets/pr-blog.php:829 widgets/pr-blog.php:1077
+#: widgets/pr-contactform.php:444 widgets/pr-contactform.php:502
+#: widgets/pr-dual-header.php:180 widgets/pr-dual-header.php:315
+#: widgets/pr-infobox.php:1219 widgets/pr-infobox.php:1265
+#: widgets/pr-navbar.php:161 widgets/pr-navbar.php:242
+#: widgets/pr-navbar.php:443 widgets/pr-services.php:410
+#: widgets/pr-services.php:505
+msgid "Text Color"
+msgstr ""
+
+#: widgets/pr-blog.php:505
+msgid "Links Color"
+msgstr ""
+
+#: widgets/pr-blog.php:516
+msgid "Links Hover Color"
+msgstr ""
+
+#: widgets/pr-blog.php:577
+msgid "excerpt"
+msgstr ""
+
+#: widgets/pr-blog.php:598 widgets/pr-blog.php:1089 widgets/pr-logo.php:137
+#: widgets/pr-logo.php:217 widgets/pr-navbar.php:338 widgets/pr-navbar.php:488
+#: widgets/pr-person-carousel.php:591 widgets/pr-person-carousel.php:635
+#: widgets/pr-person-carousel.php:680 widgets/pr-person.php:382
+#: widgets/pr-person.php:426 widgets/pr-person.php:471
+#: widgets/pr-services.php:308 widgets/pr-services.php:352
+msgid "Typography"
+msgstr ""
+
+#: widgets/pr-blog.php:648 widgets/pr-contactform.php:165
+#: widgets/pr-contactform.php:398 widgets/pr-infobox.php:204
+#: widgets/pr-infobox.php:1166 widgets/pr-pricing-table.php:217
+#: widgets/pr-pricing-table.php:314 widgets/pr-pricing-table.php:1205
+#: widgets/pr-services.php:377
+msgid "Button"
+msgstr ""
+
+#: widgets/pr-blog.php:849 widgets/pr-blog.php:1097
+msgid "Text Decoration"
+msgstr ""
+
+#: widgets/pr-blog.php:852 widgets/pr-blog.php:1100 widgets/pr-grid.php:234
+#: widgets/pr-infobox.php:55 widgets/pr-infobox.php:627
+#: widgets/pr-infobox.php:708 widgets/pr-infobox.php:843
+#: widgets/pr-infobox.php:939
+msgid "None"
+msgstr ""
+
+#: widgets/pr-blog.php:853 widgets/pr-blog.php:1101
+msgid "Underline"
+msgstr ""
+
+#: widgets/pr-blog.php:890 widgets/pr-blog.php:1138
+#: widgets/pr-image-carousel.php:318 widgets/pr-image-carousel.php:471
+#: widgets/pr-infobox.php:391 widgets/pr-infobox.php:446
+#: widgets/pr-infobox.php:640 widgets/pr-infobox.php:721
+#: widgets/pr-infobox.php:871 widgets/pr-infobox.php:952
+#: widgets/pr-logo.php:150 widgets/pr-navbar.php:212 widgets/pr-navbar.php:312
+#: widgets/pr-navbar.php:413 widgets/pr-person-carousel.php:412
+#: widgets/pr-person-carousel.php:451 widgets/pr-person-carousel.php:549
+#: widgets/pr-person-carousel.php:940 widgets/pr-person.php:257
+#: widgets/pr-person.php:340 widgets/pr-search-box.php:130
+#: widgets/pr-search-box.php:197 widgets/pr-services.php:146
+#: widgets/pr-services.php:253 widgets/pr-services.php:467
+#: widgets/pr-services.php:541 widgets/pr-testimonials.php:329
+#: widgets/pr-testimonials.php:368 widgets/pr-testimonials.php:505
+#: widgets/pr-testimonials.php:703
+msgid "Border"
+msgstr ""
+
+#: widgets/pr-blog.php:1177
+msgid "Fullwidth"
+msgstr ""
+
+#: widgets/pr-contactform.php:30
+msgid "Contact Form"
+msgstr ""
+
+#: widgets/pr-contactform.php:38
+msgid "Select Your Contact Form"
+msgstr ""
+
+#: widgets/pr-contactform.php:50
+msgid "Fields"
+msgstr ""
+
+#: widgets/pr-contactform.php:55 widgets/pr-contactform.php:172
+#: widgets/pr-image-carousel.php:114
+msgid "Width"
+msgstr ""
+
+#: widgets/pr-contactform.php:62 widgets/pr-contactform.php:120
+msgid "Input Field"
+msgstr ""
+
+#: widgets/pr-contactform.php:88 widgets/pr-contactform.php:142
+msgid "Text Area"
+msgstr ""
+
+#: widgets/pr-contactform.php:113 widgets/pr-contactform.php:195
+#: widgets/pr-image-carousel.php:93 widgets/pr-maps.php:155
+#: widgets/pr-progressbar.php:110
+msgid "Height"
+msgstr ""
+
+#: widgets/pr-contactform.php:219
+msgid "Form"
+msgstr ""
+
+#: widgets/pr-contactform.php:226
+msgid "Input Field Background"
+msgstr ""
+
+#: widgets/pr-contactform.php:284
+msgid "Focus Border Color"
+msgstr ""
+
+#: widgets/pr-contactform.php:307 widgets/pr-progressbar.php:196
+msgid "Labels"
+msgstr ""
+
+#: widgets/pr-contactform.php:317
+msgid "Default Typography"
+msgstr ""
+
+#: widgets/pr-contactform.php:324
+msgid "Default Font Color"
+msgstr ""
+
+#: widgets/pr-contactform.php:349
+msgid "Input Typography"
+msgstr ""
+
+#: widgets/pr-contactform.php:357
+msgid "Input Text Color"
+msgstr ""
+
+#: widgets/pr-contactform.php:382
+msgid "Placeholder Color"
+msgstr ""
+
+#: widgets/pr-contactform.php:524 widgets/pr-image-carousel.php:356
+#: widgets/pr-image-carousel.php:529 widgets/pr-person-carousel.php:998
+msgid "Border Color"
+msgstr ""
+
+#: widgets/pr-countdown.php:41
+msgid "Style"
+msgstr ""
+
+#: widgets/pr-countdown.php:44 widgets/pr-dual-header.php:95
+msgid "Inline"
+msgstr ""
+
+#: widgets/pr-countdown.php:45 widgets/pr-dual-header.php:96
+msgid "Block"
+msgstr ""
+
+#: widgets/pr-countdown.php:54
+msgid "Due Date"
+msgstr ""
+
+#: widgets/pr-countdown.php:60
+msgid ""
+"Date format is (yyyy/mm/dd). Time format is (hh:mm:ss). Example: 2020-01-01 "
+"09:30."
+msgstr ""
+
+#: widgets/pr-countdown.php:67
+msgid "Time Zone"
+msgstr ""
+
+#: widgets/pr-countdown.php:70
+msgid "WordPress Default"
+msgstr ""
+
+#: widgets/pr-countdown.php:71
+msgid "User Local Time"
+msgstr ""
+
+#: widgets/pr-countdown.php:74
+msgid "This will set the current time of the option that you will choose."
+msgstr ""
+
+#: widgets/pr-countdown.php:81
+msgid "Time Units"
+msgstr ""
+
+#: widgets/pr-countdown.php:83
+msgid "Select the time units that you want to display in countdown timer."
+msgstr ""
+
+#: widgets/pr-countdown.php:85
+msgid "Years"
+msgstr ""
+
+#: widgets/pr-countdown.php:86
+msgid "Month"
+msgstr ""
+
+#: widgets/pr-countdown.php:87
+msgid "Week"
+msgstr ""
+
+#: widgets/pr-countdown.php:88
+msgid "Day"
+msgstr ""
+
+#: widgets/pr-countdown.php:89
+msgid "Hours"
+msgstr ""
+
+#: widgets/pr-countdown.php:90
+msgid "Minutes"
+msgstr ""
+
+#: widgets/pr-countdown.php:91 widgets/pr-dual-header.php:66
+msgid "Second"
+msgstr ""
+
+#: widgets/pr-countdown.php:110
+msgid "Expire"
+msgstr ""
+
+#: widgets/pr-countdown.php:117
+msgid "Expire Type"
+msgstr ""
+
+#: widgets/pr-countdown.php:120
+msgid "Choose whether if you want to set a message or a redirect link"
+msgstr ""
+
+#: widgets/pr-countdown.php:122
+msgid "Message"
+msgstr ""
+
+#: widgets/pr-countdown.php:123
+msgid "Redirection Link"
+msgstr ""
+
+#: widgets/pr-countdown.php:132
+msgid "On expiry Text"
+msgstr ""
+
+#: widgets/pr-countdown.php:134
+msgid "Countdown is finished!"
+msgstr ""
+
+#: widgets/pr-countdown.php:144
+msgid "Redirect To"
+msgstr ""
+
+#: widgets/pr-countdown.php:158
+msgid "Strings Translation"
+msgstr ""
+
+#: widgets/pr-countdown.php:165
+msgid "Day (Singular)"
+msgstr ""
+
+#: widgets/pr-countdown.php:174
+msgid "Day (Plural)"
+msgstr ""
+
+#: widgets/pr-countdown.php:183
+msgid "Week (Singular)"
+msgstr ""
+
+#: widgets/pr-countdown.php:192
+msgid "Weeks (Plural)"
+msgstr ""
+
+#: widgets/pr-countdown.php:202
+msgid "Month (Singular)"
+msgstr ""
+
+#: widgets/pr-countdown.php:212
+msgid "Months (Plural)"
+msgstr ""
+
+#: widgets/pr-countdown.php:222
+msgid "Year (Singular)"
+msgstr ""
+
+#: widgets/pr-countdown.php:232
+msgid "Years (Plural)"
+msgstr ""
+
+#: widgets/pr-countdown.php:242
+msgid "Hour (Singular)"
+msgstr ""
+
+#: widgets/pr-countdown.php:252
+msgid "Hours (Plural)"
+msgstr ""
+
+#: widgets/pr-countdown.php:262
+msgid "Minute (Singular)"
+msgstr ""
+
+#: widgets/pr-countdown.php:271
+msgid "Minutes (Plural)"
+msgstr ""
+
+#: widgets/pr-countdown.php:280
+msgid "Second (Singular)"
+msgstr ""
+
+#: widgets/pr-countdown.php:289
+msgid "Seconds (Plural)"
+msgstr ""
+
+#: widgets/pr-countdown.php:300
+msgid "Digits"
+msgstr ""
+
+#: widgets/pr-countdown.php:379
+msgid "Units"
+msgstr ""
+
+#: widgets/pr-countdown.php:411
+msgid "Spacing in Between"
+msgstr ""
+
+#: widgets/pr-dual-header.php:36 widgets/pr-dual-header.php:147
+msgid "First Heading"
+msgstr ""
+
+#: widgets/pr-dual-header.php:38
+msgid "First"
+msgstr ""
+
+#: widgets/pr-dual-header.php:46 widgets/pr-dual-header.php:74
+#: widgets/pr-pricing-table.php:102
+msgid "HTML Tag"
+msgstr ""
+
+#: widgets/pr-dual-header.php:64 widgets/pr-dual-header.php:282
+msgid "Second Heading"
+msgstr ""
+
+#: widgets/pr-dual-header.php:92
+msgid "Display"
+msgstr ""
+
+#: widgets/pr-dual-header.php:109
+msgid "Link to"
+msgstr ""
+
+#: widgets/pr-dual-header.php:111
+msgid "http://your-link.com"
+msgstr ""
+
+#: widgets/pr-dual-header.php:165 widgets/pr-dual-header.php:300
+msgid "Background Style"
+msgstr ""
+
+#: widgets/pr-dual-header.php:168 widgets/pr-dual-header.php:303
+msgid ""
+"Choose ‘Normal’ style to put a background behind the text. Choose ‘Clipped’ "
+"style so the background will be clipped on the text."
+msgstr ""
+
+#: widgets/pr-dual-header.php:170 widgets/pr-dual-header.php:305
+msgid "Normal Background"
+msgstr ""
+
+#: widgets/pr-dual-header.php:171 widgets/pr-dual-header.php:306
+msgid "Clipped Background"
+msgstr ""
+
+#: widgets/pr-dual-header.php:246 widgets/pr-dual-header.php:381
+#: widgets/pr-grid.php:363 widgets/pr-grid.php:574 widgets/pr-grid.php:673
+#: widgets/pr-maps.php:466 widgets/pr-pricing-table.php:390
+#: widgets/pr-pricing-table.php:468 widgets/pr-pricing-table.php:1295
+#: widgets/pr-pricing-table.php:1366
+msgid "Shadow"
+msgstr ""
+
+#: widgets/pr-fancytext.php:35 widgets/pr-fancytext.php:65
+#: widgets/pr-fancytext.php:296
+msgid "Fancy Text"
+msgstr ""
+
+#: widgets/pr-fancytext.php:42
+msgid "Prefix"
+msgstr ""
+
+#: widgets/pr-fancytext.php:45
+msgid "This is"
+msgstr ""
+
+#: widgets/pr-fancytext.php:46
+msgid "Text before Fancy text"
+msgstr ""
+
+#: widgets/pr-fancytext.php:55
+msgid "Fancy String"
+msgstr ""
+
+#: widgets/pr-fancytext.php:69
+msgid "Designer"
+msgstr ""
+
+#: widgets/pr-fancytext.php:72
+msgid "Developer"
+msgstr ""
+
+#: widgets/pr-fancytext.php:75
+msgid "Awesome"
+msgstr ""
+
+#: widgets/pr-fancytext.php:86
+msgid "Suffix"
+msgstr ""
+
+#: widgets/pr-fancytext.php:89 widgets/pr-pricing-table.php:91
+#: widgets/pr-pricing-table.php:173 widgets/pr-pricing-table.php:228
+#: widgets/pr-pricing-table.php:957 widgets/pr-pricing-table.php:1121
+msgid "Text"
+msgstr ""
+
+#: widgets/pr-fancytext.php:90
+msgid "Text after Fancy text"
+msgstr ""
+
+#: widgets/pr-fancytext.php:125
+msgid "Additional Settings"
+msgstr ""
+
+#: widgets/pr-fancytext.php:132
+msgid "Effect"
+msgstr ""
+
+#: widgets/pr-fancytext.php:135
+msgid "Typing"
+msgstr ""
+
+#: widgets/pr-fancytext.php:136
+msgid "Slide Up"
+msgstr ""
+
+#: widgets/pr-fancytext.php:146
+msgid "Type Speed"
+msgstr ""
+
+#: widgets/pr-fancytext.php:149
+msgid "Set typing effect speed in milliseconds."
+msgstr ""
+
+#: widgets/pr-fancytext.php:160
+msgid "Back Speed"
+msgstr ""
+
+#: widgets/pr-fancytext.php:163
+msgid "Set a speed for backspace effect in milliseconds."
+msgstr ""
+
+#: widgets/pr-fancytext.php:174
+msgid "Start Delay"
+msgstr ""
+
+#: widgets/pr-fancytext.php:177
+msgid ""
+"If you set it on 5000 milliseconds, the first word/string will appear after "
+"5 seconds."
+msgstr ""
+
+#: widgets/pr-fancytext.php:188
+msgid "Back Delay"
+msgstr ""
+
+#: widgets/pr-fancytext.php:191
+msgid ""
+"If you set it on 5000 milliseconds, the word/string will remain visible for "
+"5 seconds before backspace effect."
+msgstr ""
+
+#: widgets/pr-fancytext.php:202
+msgid "Loop"
+msgstr ""
+
+#: widgets/pr-fancytext.php:214
+msgid "Show Cursor"
+msgstr ""
+
+#: widgets/pr-fancytext.php:226
+msgid "Cursor Mark"
+msgstr ""
+
+#: widgets/pr-fancytext.php:239
+msgid "Animation Speed"
+msgstr ""
+
+#: widgets/pr-fancytext.php:242
+msgid "Set a duration value in milliseconds for slide up effect."
+msgstr ""
+
+#: widgets/pr-fancytext.php:253
+msgid "Pause Time (Milliseconds)"
+msgstr ""
+
+#: widgets/pr-fancytext.php:256
+msgid ""
+"How long should the word/string stay visible? Set a value in milliseconds."
+msgstr ""
+
+#: widgets/pr-fancytext.php:267
+msgid "Show Items"
+msgstr ""
+
+#: widgets/pr-fancytext.php:270
+msgid "How many items should be visible at a time?"
+msgstr ""
+
+#: widgets/pr-fancytext.php:281
+msgid "Pause on Hover"
+msgstr ""
+
+#: widgets/pr-fancytext.php:283
+msgid "If you enabled this option, the slide will be paused when mouseover."
+msgstr ""
+
+#: widgets/pr-fancytext.php:343
+msgid "Cursor Text"
+msgstr ""
+
+#: widgets/pr-fancytext.php:393
+msgid "Prefix & Suffix"
+msgstr ""
+
+#: widgets/pr-grid.php:14
+msgid "portfolio"
+msgstr ""
+
+#: widgets/pr-grid.php:44 widgets/pr-grid.php:124
+msgid "Category"
+msgstr ""
+
+#: widgets/pr-grid.php:93 widgets/pr-grid.php:140
+msgid "Images"
+msgstr ""
+
+#: widgets/pr-grid.php:100 widgets/pr-image-carousel.php:63
+msgid "Upload Image"
+msgstr ""
+
+#: widgets/pr-grid.php:109 widgets/pr-person-carousel.php:71
+#: widgets/pr-person-carousel.php:570 widgets/pr-person.php:47
+#: widgets/pr-person.php:361 widgets/pr-testimonials.php:529
+msgid "Name"
+msgstr ""
+
+#: widgets/pr-grid.php:117 widgets/pr-grid.php:455 widgets/pr-infobox.php:151
+#: widgets/pr-logo.php:172 widgets/pr-maps.php:117 widgets/pr-maps.php:354
+#: widgets/pr-person-carousel.php:83 widgets/pr-person-carousel.php:659
+#: widgets/pr-person.php:65 widgets/pr-person.php:450
+#: widgets/pr-pricing-table.php:123 widgets/pr-pricing-table.php:134
+#: widgets/pr-pricing-table.php:307 widgets/pr-pricing-table.php:1111
+#: widgets/pr-services.php:56 widgets/pr-services.php:331
+msgid "Description"
+msgstr ""
+
+#: widgets/pr-grid.php:131 widgets/pr-image-carousel.php:71
+#: widgets/pr-person.php:163 widgets/pr-pricing-table.php:239
+msgid "Link"
+msgstr ""
+
+#: widgets/pr-grid.php:161
+msgid "Grid Settings"
+msgstr ""
+
+#: widgets/pr-grid.php:179
+msgid "6"
+msgstr ""
+
+#: widgets/pr-grid.php:190
+msgid "Grid Layout"
+msgstr ""
+
+#: widgets/pr-grid.php:193
+msgid "Even"
+msgstr ""
+
+#: widgets/pr-grid.php:194
+msgid "Masonry"
+msgstr ""
+
+#: widgets/pr-grid.php:213
+msgid "Image Gap"
+msgstr ""
+
+#: widgets/pr-grid.php:230
+msgid "Hover Effect"
+msgstr ""
+
+#: widgets/pr-grid.php:232
+msgid "Choose a hover effect for the image"
+msgstr ""
+
+#: widgets/pr-grid.php:235
+msgid "Zoom In"
+msgstr ""
+
+#: widgets/pr-grid.php:236
+msgid "Zoom Out"
+msgstr ""
+
+#: widgets/pr-grid.php:237
+msgid "Scale"
+msgstr ""
+
+#: widgets/pr-grid.php:238
+msgid "Grayscale"
+msgstr ""
+
+#: widgets/pr-grid.php:239
+msgid "Blur"
+msgstr ""
+
+#: widgets/pr-grid.php:248 widgets/pr-grid.php:705
+msgid "Filter"
+msgstr ""
+
+#: widgets/pr-grid.php:256
+msgid "Lightbox"
+msgstr ""
+
+#: widgets/pr-grid.php:264 widgets/pr-infobox.php:170
+msgid "Content Alignment"
+msgstr ""
+
+#: widgets/pr-grid.php:291
+msgid "Responsive"
+msgstr ""
+
+#: widgets/pr-grid.php:296
+msgid "Responsive Controls"
+msgstr ""
+
+#: widgets/pr-grid.php:298
+msgid ""
+"If the content text is not suiting well on specific screen sizes, you may "
+"enable this option which will hide the description text."
+msgstr ""
+
+#: widgets/pr-grid.php:303
+msgid "Minimum Size"
+msgstr ""
+
+#: widgets/pr-grid.php:305
+msgid "Note: minimum size for extra small screens is 1px."
+msgstr ""
+
+#: widgets/pr-grid.php:314
+msgid "Maximum Size"
+msgstr ""
+
+#: widgets/pr-grid.php:316
+msgid "Note: maximum size for extra small screens is 767px."
+msgstr ""
+
+#: widgets/pr-grid.php:327 widgets/pr-image-carousel.php:279
+#: widgets/pr-infobox.php:47 widgets/pr-person-carousel.php:488
+#: widgets/pr-person.php:279 widgets/pr-services.php:192
+#: widgets/pr-testimonials.php:447
+msgid "Image"
+msgstr ""
+
+#: widgets/pr-grid.php:397 widgets/pr-infobox.php:133
+#: widgets/pr-infobox.php:978 widgets/pr-person.php:29
+#: widgets/pr-services.php:29 widgets/pr-testimonials.php:404
+msgid "Content"
+msgstr ""
+
+#: widgets/pr-grid.php:509
+msgid "Icons"
+msgstr ""
+
+#: widgets/pr-grid.php:612
+msgid "Overlay Color"
+msgstr ""
+
+#: widgets/pr-grid.php:728 widgets/pr-navbar.php:281
+msgid "Active Color"
+msgstr ""
+
+#: widgets/pr-grid.php:751
+msgid "Background"
+msgstr ""
+
+#: widgets/pr-grid.php:773
+msgid "Background Active Color"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:36
+msgid "Slides"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:142
+msgid "Carousel Settings"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:149 widgets/pr-person-carousel.php:179
+#: widgets/pr-testimonials.php:114
+msgid "Visible Items"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:168 widgets/pr-person-carousel.php:198
+#: widgets/pr-testimonials.php:133
+msgid "Slide to Scroll"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:180 widgets/pr-person-carousel.php:210
+#: widgets/pr-testimonials.php:145
+msgid "Slide Speed"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:193 widgets/pr-image-carousel.php:216
+#: widgets/pr-image-carousel.php:228 widgets/pr-image-carousel.php:240
+#: widgets/pr-image-carousel.php:252 widgets/pr-image-carousel.php:265
+#: widgets/pr-infobox.php:214 widgets/pr-infobox.php:228
+#: widgets/pr-person-carousel.php:223 widgets/pr-person-carousel.php:246
+#: widgets/pr-person-carousel.php:258 widgets/pr-person-carousel.php:270
+#: widgets/pr-person-carousel.php:282 widgets/pr-person-carousel.php:295
+#: widgets/pr-testimonials.php:158 widgets/pr-testimonials.php:182
+#: widgets/pr-testimonials.php:195 widgets/pr-testimonials.php:207
+#: widgets/pr-testimonials.php:220
+msgid "No"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:194 widgets/pr-image-carousel.php:217
+#: widgets/pr-image-carousel.php:229 widgets/pr-image-carousel.php:241
+#: widgets/pr-image-carousel.php:253 widgets/pr-image-carousel.php:266
+#: widgets/pr-infobox.php:213 widgets/pr-infobox.php:227
+#: widgets/pr-person-carousel.php:224 widgets/pr-person-carousel.php:247
+#: widgets/pr-person-carousel.php:259 widgets/pr-person-carousel.php:271
+#: widgets/pr-person-carousel.php:283 widgets/pr-person-carousel.php:296
+#: widgets/pr-testimonials.php:159 widgets/pr-testimonials.php:183
+#: widgets/pr-testimonials.php:196 widgets/pr-testimonials.php:208
+#: widgets/pr-testimonials.php:221
+msgid "Yes"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:197 widgets/pr-person-carousel.php:227
+#: widgets/pr-testimonials.php:163
+msgid "Autoplay?"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:198 widgets/pr-person-carousel.php:228
+#: widgets/pr-testimonials.php:164
+msgid "Should the carousel autoplay as in a slideshow."
+msgstr ""
+
+#: widgets/pr-image-carousel.php:205 widgets/pr-person-carousel.php:235
+#: widgets/pr-testimonials.php:171
+msgid "Pause on Hover?"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:220 widgets/pr-person-carousel.php:250
+#: widgets/pr-testimonials.php:187
+msgid "Draggable?"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:232 widgets/pr-person-carousel.php:262
+#: widgets/pr-testimonials.php:199
+msgid "Infinite Loop"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:244 widgets/pr-person-carousel.php:274
+msgid "Center Mode"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:256 widgets/pr-image-carousel.php:390
+#: widgets/pr-person-carousel.php:286 widgets/pr-person-carousel.php:859
+#: widgets/pr-testimonials.php:614
+msgid "Arrows"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:269 widgets/pr-person-carousel.php:299
+msgid "Dots navigation"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:286
+msgid "Image Spacing"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:397 widgets/pr-person-carousel.php:796
+#: widgets/pr-person-carousel.php:866 widgets/pr-person.php:587
+#: widgets/pr-testimonials.php:633
+msgid "Font Size"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:414 widgets/pr-person-carousel.php:883
+#: widgets/pr-testimonials.php:649
+msgid "Box Size"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:552 widgets/pr-person-carousel.php:1021
+#: widgets/pr-testimonials.php:779
+msgid "Dots"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:560 widgets/pr-person-carousel.php:1029
+#: widgets/pr-testimonials.php:787
+msgid "Dots Color"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:573 widgets/pr-person-carousel.php:1042
+#: widgets/pr-pricing-table.php:1032 widgets/pr-testimonials.php:800
+msgid "Vertical Spacing"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:591 widgets/pr-person-carousel.php:1060
+#: widgets/pr-testimonials.php:818
+msgid "Bullet Size"
+msgstr ""
+
+#: widgets/pr-image-carousel.php:612 widgets/pr-person-carousel.php:1081
+#: widgets/pr-testimonials.php:839
+msgid "Active Bullet Size"
+msgstr ""
+
+#: widgets/pr-infobox.php:31 widgets/pr-infobox.php:43
+#: widgets/pr-infobox.php:87 widgets/pr-infobox.php:290
+#: widgets/pr-infobox.php:346 widgets/pr-infobox.php:530
+#: widgets/pr-infobox.php:748 widgets/pr-person.php:116
+#: widgets/pr-pricing-table.php:29 widgets/pr-pricing-table.php:180
+#: widgets/pr-pricing-table.php:275 widgets/pr-pricing-table.php:513
+#: widgets/pr-pricing-table.php:987 widgets/pr-search-box.php:93
+msgid "Icon"
+msgstr ""
+
+#: widgets/pr-infobox.php:38
+msgid "Icon Type"
+msgstr ""
+
+#: widgets/pr-infobox.php:51 widgets/pr-infobox.php:102
+msgid "Number"
+msgstr ""
+
+#: widgets/pr-infobox.php:69
+msgid "Infobox Image"
+msgstr ""
+
+#: widgets/pr-infobox.php:113 widgets/pr-infobox.php:301
+msgid "Icon Position"
+msgstr ""
+
+#: widgets/pr-infobox.php:118
+msgid "On Top"
+msgstr ""
+
+#: widgets/pr-infobox.php:119
+msgid "On Left"
+msgstr ""
+
+#: widgets/pr-infobox.php:120
+msgid "On Right"
+msgstr ""
+
+#: widgets/pr-infobox.php:139
+msgid "Infobox Title"
+msgstr ""
+
+#: widgets/pr-infobox.php:145
+msgid "This is an icon box"
+msgstr ""
+
+#: widgets/pr-infobox.php:153
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr ""
+
+#: widgets/pr-infobox.php:159
+msgid "Show Content"
+msgstr ""
+
+#: widgets/pr-infobox.php:162
+msgid "Show"
+msgstr ""
+
+#: widgets/pr-infobox.php:163
+msgid "Hide"
+msgstr ""
+
+#: widgets/pr-infobox.php:211
+msgid "Show Infobox Button"
+msgstr ""
+
+#: widgets/pr-infobox.php:224
+msgid "Infobox Clickable"
+msgstr ""
+
+#: widgets/pr-infobox.php:239
+msgid "Infobox Link"
+msgstr ""
+
+#: widgets/pr-infobox.php:256 widgets/pr-services.php:64
+msgid "Button Text"
+msgstr ""
+
+#: widgets/pr-infobox.php:261
+msgid "Enter button text"
+msgstr ""
+
+#: widgets/pr-infobox.php:262
+msgid "Enter button text here"
+msgstr ""
+
+#: widgets/pr-infobox.php:272
+msgid "Link URL"
+msgstr ""
+
+#: widgets/pr-infobox.php:275
+msgid "Enter link URL for the button"
+msgstr ""
+
+#: widgets/pr-infobox.php:280
+msgid "Enter heading for the button"
+msgstr ""
+
+#: widgets/pr-infobox.php:305
+msgid "Before"
+msgstr ""
+
+#: widgets/pr-infobox.php:306
+msgid "After"
+msgstr ""
+
+#: widgets/pr-infobox.php:318
+msgid "Icon Spacing"
+msgstr ""
+
+#: widgets/pr-infobox.php:399 widgets/pr-infobox.php:454
+msgid "Image Shape"
+msgstr ""
+
+#: widgets/pr-infobox.php:404 widgets/pr-infobox.php:459
+#: widgets/pr-infobox.php:630 widgets/pr-infobox.php:711
+#: widgets/pr-infobox.php:846 widgets/pr-infobox.php:942
+msgid "Square"
+msgstr ""
+
+#: widgets/pr-infobox.php:405 widgets/pr-infobox.php:460
+#: widgets/pr-infobox.php:628 widgets/pr-infobox.php:709
+#: widgets/pr-infobox.php:844 widgets/pr-infobox.php:940
+msgid "Circle"
+msgstr ""
+
+#: widgets/pr-infobox.php:406 widgets/pr-infobox.php:461
+#: widgets/pr-infobox.php:629 widgets/pr-infobox.php:710
+#: widgets/pr-infobox.php:845 widgets/pr-infobox.php:941
+msgid "Radius"
+msgstr ""
+
+#: widgets/pr-infobox.php:437 widgets/pr-infobox.php:666
+#: widgets/pr-infobox.php:897
+msgid "Animation"
+msgstr ""
+
+#: widgets/pr-infobox.php:477
+msgid "Image Resizer"
+msgstr ""
+
+#: widgets/pr-infobox.php:549 widgets/pr-infobox.php:780
+msgid "Icon Background Size"
+msgstr ""
+
+#: widgets/pr-infobox.php:594 widgets/pr-infobox.php:674
+#: widgets/pr-infobox.php:825 widgets/pr-infobox.php:905
+#: widgets/pr-person-carousel.php:748 widgets/pr-person.php:539
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/pr-infobox.php:622 widgets/pr-infobox.php:703
+#: widgets/pr-infobox.php:838 widgets/pr-infobox.php:934
+msgid "Background Shape"
+msgstr ""
+
+#: widgets/pr-infobox.php:759
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/pr-infobox.php:986
+msgid "Info Box Padding"
+msgstr ""
+
+#: widgets/pr-infobox.php:1004
+msgid "Title Style"
+msgstr ""
+
+#: widgets/pr-infobox.php:1043
+msgid "Description Style"
+msgstr ""
+
+#: widgets/pr-infobox.php:1052
+msgid "Description Margin"
+msgstr ""
+
+#: widgets/pr-infobox.php:1064
+msgid "Description Background"
+msgstr ""
+
+#: widgets/pr-infobox.php:1076
+msgid "Description Padding"
+msgstr ""
+
+#: widgets/pr-infobox.php:1114 widgets/pr-logo.php:84
+msgid "Title Color"
+msgstr ""
+
+#: widgets/pr-infobox.php:1126 widgets/pr-testimonials.php:412
+msgid "Content Color"
+msgstr ""
+
+#: widgets/pr-infobox.php:1138
+msgid "Transition"
+msgstr ""
+
+#: widgets/pr-infobox.php:1139
+msgid "Transition will applied to ms (ex: 300ms)."
+msgstr ""
+
+#: widgets/pr-infobox.php:1185
+msgid "Button Padding"
+msgstr ""
+
+#: widgets/pr-logo.php:37
+msgid "Logo Type"
+msgstr ""
+
+#: widgets/pr-logo.php:38
+msgid "you must set youre logo using the theme customizer"
+msgstr ""
+
+#: widgets/pr-logo.php:41 widgets/pr-logo.php:76
+msgid "Logo"
+msgstr ""
+
+#: widgets/pr-maps.php:39
+msgid "Center Location"
+msgstr ""
+
+#: widgets/pr-maps.php:57
+msgid "Center Latitude"
+msgstr ""
+
+#: widgets/pr-maps.php:59 widgets/pr-maps.php:69
+msgid "Center latitude and longitude are required to identify your location"
+msgstr ""
+
+#: widgets/pr-maps.php:67
+msgid "Center Longitude"
+msgstr ""
+
+#: widgets/pr-maps.php:79
+msgid "Markers"
+msgstr ""
+
+#: widgets/pr-maps.php:85
+msgid "Map Pins"
+msgstr ""
+
+#: widgets/pr-maps.php:91
+msgid "Add an optional description to your map pin"
+msgstr ""
+
+#: widgets/pr-maps.php:96
+msgid "Latitude"
+msgstr ""
+
+#: widgets/pr-maps.php:103
+msgid "Longitude"
+msgstr ""
+
+#: widgets/pr-maps.php:124
+msgid "Custom Icon"
+msgstr ""
+
+#: widgets/pr-maps.php:135
+msgid "Controls"
+msgstr ""
+
+#: widgets/pr-maps.php:141
+msgid "Map Type"
+msgstr ""
+
+#: widgets/pr-maps.php:144
+msgid "Road Map"
+msgstr ""
+
+#: widgets/pr-maps.php:145
+msgid "Satellite"
+msgstr ""
+
+#: widgets/pr-maps.php:146
+msgid "Terrain"
+msgstr ""
+
+#: widgets/pr-maps.php:147
+msgid "Hybrid"
+msgstr ""
+
+#: widgets/pr-maps.php:174
+msgid "Zoom"
+msgstr ""
+
+#: widgets/pr-maps.php:190
+msgid "Map Type Controls"
+msgstr ""
+
+#: widgets/pr-maps.php:197
+msgid "Zoom Controls"
+msgstr ""
+
+#: widgets/pr-maps.php:204
+msgid "Street View Control"
+msgstr ""
+
+#: widgets/pr-maps.php:211
+msgid "Fullscreen Control"
+msgstr ""
+
+#: widgets/pr-maps.php:218
+msgid "Scroll Wheel Zoom"
+msgstr ""
+
+#: widgets/pr-maps.php:225
+msgid "Info Container Always Opened"
+msgstr ""
+
+#: widgets/pr-maps.php:232
+msgid "Info Container Opened when Hovered"
+msgstr ""
+
+#: widgets/pr-maps.php:239
+msgid "Info Container Closed when Mouse Out"
+msgstr ""
+
+#: widgets/pr-maps.php:251
+msgid "Map Style"
+msgstr ""
+
+#: widgets/pr-maps.php:257
+msgid "JSON Code"
+msgstr ""
+
+#: widgets/pr-maps.php:436
+msgid "Map"
+msgstr ""
+
+#: widgets/pr-navbar.php:30
+msgid "Navigation"
+msgstr ""
+
+#: widgets/pr-navbar.php:37
+msgid "Select Menu"
+msgstr ""
+
+#: widgets/pr-navbar.php:46 widgets/pr-testimonials.php:243
+msgid "Layout"
+msgstr ""
+
+#: widgets/pr-navbar.php:50
+msgid "Horizontal"
+msgstr ""
+
+#: widgets/pr-navbar.php:51
+msgid "Vertical"
+msgstr ""
+
+#: widgets/pr-navbar.php:97 widgets/pr-navbar.php:349
+msgid "Submenu"
+msgstr ""
+
+#: widgets/pr-navbar.php:193
+msgid "Gap"
+msgstr ""
+
+#: widgets/pr-navbar.php:274
+msgid "active"
+msgstr ""
+
+#: widgets/pr-navbar.php:296
+msgid "Active Background"
+msgstr ""
+
+#: widgets/pr-navbar.php:374
+msgid "Gap Before 1st Level Sub"
+msgstr ""
+
+#: widgets/pr-navbar.php:393
+msgid "Gap Before 2nd Level Sub"
+msgstr ""
+
+#: widgets/pr-navbar.php:468
+msgid "Text color"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:36
+msgid "Team Carousel Content"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:63 widgets/pr-person.php:36
+msgid "Team Member Avatar"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:73 widgets/pr-person.php:49
+#: widgets/pr-testimonials.php:84
+msgid "John Doe"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:77 widgets/pr-person-carousel.php:614
+#: widgets/pr-person.php:56 widgets/pr-person.php:405
+msgid "Job Position"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:79 widgets/pr-person.php:58
+msgid "Software Engineer"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:86 widgets/pr-person.php:67
+msgid "Add team member description here. Remove the text if not necessary."
+msgstr ""
+
+#: widgets/pr-person-carousel.php:90
+msgid "Display Social Links?"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:96
+msgid "Facebook"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:98
+msgid "Enter Facebook page or profile URL of team member"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:105
+msgid "Twitter"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:107
+msgid "Enter Twitter profile URL of team member"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:114
+msgid "Linkedin"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:116
+msgid "Enter Linkedin profile URL of team member"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:123
+msgid "Instagram"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:125
+msgid "Enter Instagram profile URL of team member"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:132
+msgid "YouTube"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:134
+msgid "Enter YouTube profile URL of team member"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:141
+msgid "Pinterest"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:143
+msgid "Enter Pinterest profile URL of team member"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:150
+msgid "Dribbble"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:152
+msgid "Enter Dribbble profile URL of team member"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:172
+msgid "Team Carousel Settings"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:309 widgets/pr-person.php:182
+#: widgets/pr-services.php:88
+msgid "General"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:318 widgets/pr-person.php:191
+msgid "Style Preset"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:322 widgets/pr-person.php:195
+msgid "Simple Style"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:323 widgets/pr-person.php:196
+msgid "Overlay Style"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:343 widgets/pr-person.php:216
+#: widgets/pr-services.php:108 widgets/pr-testimonials.php:269
+msgid "Set Alignment"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:371
+msgid "Item Margin"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:390 widgets/pr-person.php:244
+#: widgets/pr-services.php:133
+msgid "Content Padding"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:496 widgets/pr-person.php:287
+#: widgets/pr-services.php:200 widgets/pr-testimonials.php:469
+msgid "Image Width"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:705 widgets/pr-person.php:78
+#: widgets/pr-person.php:496
+msgid "Social Icons"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:714 widgets/pr-person.php:505
+msgid "Icon Box Size"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:731 widgets/pr-person.php:522
+msgid "Marging"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:817 widgets/pr-person.php:608
+msgid "Icon Hover Color"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:829 widgets/pr-person.php:620
+msgid "Hover Background Color"
+msgstr ""
+
+#: widgets/pr-person-carousel.php:841 widgets/pr-person.php:632
+msgid "Hover Border Color"
+msgstr ""
+
+#: widgets/pr-person.php:85
+msgid "Display Social Icons"
+msgstr ""
+
+#: widgets/pr-person.php:170
+msgid "Place URL here"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:38
+msgid "Select an Icon"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:49 widgets/pr-pricing-table.php:69
+#: widgets/pr-pricing-table.php:291 widgets/pr-pricing-table.php:771
+#: widgets/pr-pricing-table.php:851
+msgid "Price"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:59 widgets/pr-pricing-table.php:781
+msgid "Currency"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:103
+msgid "Select HTML tag for the title"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:136
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:145 widgets/pr-pricing-table.php:154
+#: widgets/pr-pricing-table.php:299 widgets/pr-pricing-table.php:947
+msgid "Features"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:159
+msgid "List Item #1"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:163
+msgid "List Item #2"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:167
+msgid "List Item #3"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:229
+msgid "Buy Now"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:249
+msgid "Link Target"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:251
+msgid " Where would you like the link be opened?"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:258
+msgid "blank"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:269
+msgid "Display Options"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:327
+msgid "Table"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:538 widgets/pr-pricing-table.php:1009
+msgid "Size"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:604 widgets/pr-pricing-table.php:895
+#: widgets/pr-pricing-table.php:1042 widgets/pr-pricing-table.php:1153
+msgid "Container"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:813
+msgid "Vertical Align"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:817 widgets/pr-testimonials.php:458
+msgid "Top"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:821
+msgid "Unset"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:825
+msgid "Bottom"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:1019
+msgid "Spacing"
+msgstr ""
+
+#: widgets/pr-pricing-table.php:1230
+msgid "Hover Text Color"
+msgstr ""
+
+#: widgets/pr-progressbar.php:35
+msgid "Progress Bar Settings"
+msgstr ""
+
+#: widgets/pr-progressbar.php:44
+msgid "My Skill"
+msgstr ""
+
+#: widgets/pr-progressbar.php:52 widgets/pr-progressbar.php:248
+msgid "Percentage"
+msgstr ""
+
+#: widgets/pr-progressbar.php:54
+msgid "50%"
+msgstr ""
+
+#: widgets/pr-progressbar.php:62
+msgid "Value"
+msgstr ""
+
+#: widgets/pr-progressbar.php:74
+msgid "Type"
+msgstr ""
+
+#: widgets/pr-progressbar.php:78
+msgid "Solid"
+msgstr ""
+
+#: widgets/pr-progressbar.php:79
+msgid "Stripped"
+msgstr ""
+
+#: widgets/pr-progressbar.php:87
+msgid "Animated"
+msgstr ""
+
+#: widgets/pr-progressbar.php:146
+msgid "Indicator Background"
+msgstr ""
+
+#: widgets/pr-progressbar.php:166
+msgid "Main Background"
+msgstr ""
+
+#: widgets/pr-search-box.php:30
+msgid "Search"
+msgstr ""
+
+#: widgets/pr-search-box.php:73
+msgid "Icon Font Size"
+msgstr ""
+
+#: widgets/pr-search-box.php:101 widgets/pr-search-box.php:177
+msgid "Primary Color"
+msgstr ""
+
+#: widgets/pr-search-box.php:117
+msgid "Search Padding"
+msgstr ""
+
+#: widgets/pr-search-box.php:153
+msgid "Overlay"
+msgstr ""
+
+#: widgets/pr-search-box.php:161
+msgid "Overlay Background"
+msgstr ""
+
+#: widgets/pr-search-box.php:218
+msgid "Input Focus Border Color"
+msgstr ""
+
+#: widgets/pr-services.php:36
+msgid "Services Image"
+msgstr ""
+
+#: widgets/pr-services.php:49
+msgid "Service Title"
+msgstr ""
+
+#: widgets/pr-services.php:58
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua.."
+msgstr ""
+
+#: widgets/pr-services.php:73
+msgid "Button Link"
+msgstr ""
+
+#: widgets/pr-services.php:295
+msgid "Hover Color"
+msgstr ""
+
+#: widgets/pr-testimonials.php:14
+msgid "Testimonial Slider"
+msgstr ""
+
+#: widgets/pr-testimonials.php:36 widgets/pr-testimonials.php:58
+msgid "Testimonial Content"
+msgstr ""
+
+#: widgets/pr-testimonials.php:61
+msgid ""
+"Click edit button to change this text. Lorem ipsum dolor sit amet, "
+"consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, "
+"pulvinar dapibus leo."
+msgstr ""
+
+#: widgets/pr-testimonials.php:65
+msgid "Display Avatar?"
+msgstr ""
+
+#: widgets/pr-testimonials.php:71
+msgid "Testimonial Avatar"
+msgstr ""
+
+#: widgets/pr-testimonials.php:82
+msgid "User Name"
+msgstr ""
+
+#: widgets/pr-testimonials.php:88
+msgid "Company Name"
+msgstr ""
+
+#: widgets/pr-testimonials.php:90
+msgid "Company"
+msgstr ""
+
+#: widgets/pr-testimonials.php:107
+msgid "Testimonial Slider Settings"
+msgstr ""
+
+#: widgets/pr-testimonials.php:211
+msgid "Prev/Next Arrows?"
+msgstr ""
+
+#: widgets/pr-testimonials.php:225
+msgid "dot navigation?"
+msgstr ""
+
+#: widgets/pr-testimonials.php:235
+msgid "General Styles"
+msgstr ""
+
+#: widgets/pr-testimonials.php:257
+msgid "Testimonial Background Color"
+msgstr ""
+
+#: widgets/pr-testimonials.php:455
+msgid "Image Position"
+msgstr ""
+
+#: widgets/pr-testimonials.php:459
+msgid "Aside"
+msgstr ""
+
+#: widgets/pr-testimonials.php:537
+msgid "Name Color"
+msgstr ""
+
+#: widgets/pr-testimonials.php:572
+msgid "Job"
+msgstr ""
+
+#: widgets/pr-testimonials.php:580
+msgid "Job Color"
+msgstr ""
+
+#: widgets/pr-testimonials.php:620
+msgid "Position"
+msgstr ""
+
+#: widgets/pr-testimonials.php:758
+msgid "BorderColor"
+msgstr ""

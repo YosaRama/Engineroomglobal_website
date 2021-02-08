@@ -1,0 +1,21 @@
+a:4:{s:8:"template";s:7:"gentium";s:4:"mods";a:52:{i:0;b:0;s:18:"nav_menu_locations";a:2:{s:13:"menu-one-page";i:19;s:6:"menu-1";i:20;}s:18:"custom_css_post_id";i:549;s:18:"header_layout_type";s:6:"custom";s:22:"select_header_template";s:2:"37";s:25:"header_logo_img_max_width";s:3:"120";s:20:"header_nav_font_size";s:2:"14";s:18:"show_sticky_header";b:1;s:17:"mobile_icon_color";s:7:"#ffffff";s:25:"mobile_logo_img_max_width";s:3:"120";s:15:"mobile_bg_color";s:7:"#000000";s:23:"sticky_mobile_header_on";b:1;s:24:"select_stheader_template";s:3:"104";s:24:"heading_padding_top_size";s:3:"200";s:27:"heading_padding_bottom_size";s:2:"70";s:10:"heading_bg";s:15:"rgba(0,0,0,0.9)";s:11:"heading_img";s:59:"http://localhost/gt/wp-content/uploads/2019/02/05-min-5.jpg";s:19:"section_title_color";s:7:"#ffffff";s:21:"section_title_spacing";s:2:"26";s:15:"show_hr_divider";b:1;s:21:"page_title_hr_spacing";s:2:"40";s:16:"show_breadcrumbs";b:1;s:18:"blog_listing_style";s:5:"chess";s:20:"blog_pagination_type";s:4:"load";s:26:"single_heading_padding_top";s:3:"250";s:26:"single_heading_padding_bot";s:2:"80";s:24:"single_heading_font_size";s:2:"48";s:25:"single_heading_overlay_bg";s:15:"rgba(0,0,0,0.9)";s:18:"footer_layout_type";s:6:"custom";s:22:"select_footer_template";s:2:"53";s:19:"post_excerpt_length";s:2:"25";s:20:"single_cat_font_size";s:2:"14";s:13:"headings_font";a:6:{s:11:"font-family";s:7:"Poppins";s:7:"variant";s:3:"700";s:14:"letter-spacing";s:6:"-.04em";s:11:"font-backup";s:0:"";s:11:"font-weight";i:700;s:10:"font-style";s:6:"normal";}s:12:"h1_font_size";s:2:"42";s:12:"h3_font_size";s:2:"22";s:12:"h4_font_size";s:2:"18";s:12:"h5_font_size";s:2:"14";s:12:"h6_font_size";s:2:"12";s:9:"body_font";a:7:{s:11:"font-family";s:16:"Roboto Condensed";s:7:"variant";s:7:"regular";s:9:"font-size";s:4:"17px";s:11:"line-height";s:3:"1.5";s:11:"font-backup";s:0:"";s:11:"font-weight";i:400;s:10:"font-style";s:6:"normal";}s:12:"h2_font_size";s:2:"28";s:12:"aling_titles";s:4:"left";s:12:"heading_font";a:9:{s:11:"font-family";s:7:"Poppins";s:7:"variant";s:3:"700";s:9:"font-size";s:4:"42px";s:11:"line-height";s:4:"47px";s:14:"text-transform";s:4:"none";s:14:"letter-spacing";s:3:"0px";s:11:"font-backup";s:0:"";s:11:"font-weight";i:700;s:10:"font-style";s:6:"normal";}s:19:"page_title_hr_width";s:2:"70";s:20:"page_title_hr_height";s:1:"2";s:17:"breadcrumbs_color";s:7:"#ffffff";s:16:"breadcrumbs_font";a:9:{s:11:"font-family";s:16:"Roboto Condensed";s:7:"variant";s:3:"700";s:9:"font-size";s:4:"16px";s:11:"line-height";s:3:"1.5";s:14:"text-transform";s:9:"uppercase";s:14:"letter-spacing";s:3:"0px";s:11:"font-backup";s:0:"";s:11:"font-weight";i:700;s:10:"font-style";s:6:"normal";}s:15:"stheader_offset";s:3:"100";s:18:"stheader_animation";s:22:"uk-animation-slide-top";s:17:"stm_header_offset";s:3:"100";s:20:"stm_header_animation";s:22:"uk-animation-slide-top";s:10:"text_color";s:7:"#747474";s:10:"link_color";s:7:"#e9204f";}s:7:"options";a:2:{s:9:"site_icon";s:1:"0";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:891:".pixe-single-post-header-full, .section-title.thumbnail-bg{
+	margin-top:-170px;
+}
+
+.page-id-326 header.site-header .pr-main-menu > .menu-item > a, .page-id-326 .elementor-widget-heading .elementor-heading-title>a, 
+.page-id-330 header.site-header .pr-main-menu > .menu-item > a, .page-id-330 .elementor-widget-heading .elementor-heading-title>a,
+.page-id-326 #mobile-header .toggle-icon i, .page-id-326 .mobile-logo h1.site-title a,
+.page-id-330 #mobile-header .toggle-icon i, .page-id-330 .mobile-logo h1.site-title a,
+.page-id-330 .lang select,
+.page-id-226 .lang select,
+.page-id-330 .lang,
+.page-id-226 .lang{
+    color:#101010!important;
+}
+
+.page-id-326 .elementor-104 .elementor-element.elementor-element-3f9125c, 
+.page-id-330 .elementor-104 .elementor-element.elementor-element-3f9125c,
+.page-id-326 #mobile-header,
+.page-id-330 #mobile-header{
+    background-color:#fff!important;
+}";}
