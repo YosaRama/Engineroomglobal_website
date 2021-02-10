@@ -20,7 +20,6 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 	 * @since 3.1
 	 *
 	 * @param string $html HTML content.
-	 *
 	 * @return string
 	 */
 	public function optimize( $html ) {
@@ -45,23 +44,7 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 				continue;
 			}
 
-			$integrity_validated = $this->local_cache->validate_integrity( $style );
-
-			if ( false === $integrity_validated ) {
-				Logger::debug(
-					'Style integrity attribute not valid.',
-					[
-						'css minification process',
-						'tag' => $style[0],
-					]
-				);
-
-				continue;
-			}
-
-			$style['final'] = $integrity_validated;
-
-			$minify_url = $this->replace_url( strtok( $style['url'], '?' ) );
+			$minify_url = $this->replace_url( $style['url'] );
 
 			if ( ! $minify_url ) {
 				Logger::error(
@@ -83,8 +66,7 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 	/**
 	 * Get all style tags from HTML.
 	 *
-	 * @param string $html HTML content.
-	 *
+	 * @param  string $html HTML content.
 	 * @return array Array with style tags, empty array if no style tags found.
 	 */
 	protected function get_styles( $html ) {
@@ -93,7 +75,6 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 
 		if ( ! $styles ) {
 			Logger::debug( 'No `<link>` tags found.', [ 'css minification process' ] );
-
 			return [];
 		}
 
@@ -114,7 +95,7 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 	 * @since 2.11
 	 *
 	 * @param string $url Original file URL.
-	 *
+
 	 * @return string|bool The minify URL if successful, false otherwise
 	 */
 	private function replace_url( $url ) {
@@ -137,7 +118,7 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 
 		$unique_id     = md5( $url . $this->minify_key );
 		$filename      = preg_replace( '/\.(css)$/', '-' . $unique_id . '.css', ltrim( rocket_realpath( $parsed_url['path'] ), '/' ) );
-		$minified_file = rawurldecode( $this->minify_base_path . $filename );
+		$minified_file = $this->minify_base_path . $filename;
 		$minify_url    = $this->get_minify_url( $filename, $url );
 
 		if ( rocket_direct_filesystem()->exists( $minified_file ) ) {
@@ -148,7 +129,6 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 					'path' => $minified_file,
 				]
 			);
-
 			return $minify_url;
 		}
 
@@ -163,7 +143,6 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 					'url' => $url,
 				]
 			);
-
 			return false;
 		}
 
@@ -177,7 +156,6 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 					'path' => $file_path,
 				]
 			);
-
 			return false;
 		}
 
@@ -212,7 +190,7 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 	 * @return string
 	 */
 	protected function replace_style( $style, $minify_url, $html ) {
-		$replace_style = str_replace( $style['url'], $minify_url, $style['final'] );
+		$replace_style = str_replace( $style['url'], $minify_url, $style[0] );
 		$replace_style = str_replace( '<link', '<link data-minify="1"', $replace_style );
 		$html          = str_replace( $style[0], $replace_style, $html );
 
@@ -248,7 +226,6 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 					'path' => $minified_file,
 				]
 			);
-
 			return false;
 		}
 		Logger::debug(
@@ -258,7 +235,6 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 				'path' => $minified_file,
 			]
 		);
-
 		return true;
 	}
 
@@ -270,7 +246,6 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 	 * @param string $url           File Url.
 	 * @param string $minified_file Minified file path.
 	 * @param string $content       CSS file content.
-	 *
 	 * @return string
 	 */
 	protected function font_display_swap( $url, $minified_file, $content ) {
@@ -305,7 +280,6 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 	 * @param string $file_path     Source filepath.
 	 * @param string $minified_file Target filepath.
 	 * @param string $file_content  Content to minify.
-	 *
 	 * @return string
 	 */
 	protected function minify( $file_path, $minified_file, $file_content ) {
@@ -321,7 +295,6 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 					'path' => $minified_file,
 				]
 			);
-
 			return '';
 		}
 
@@ -334,7 +307,6 @@ class Minify extends AbstractCSSOptimization implements ProcessorInterface {
 	 * @since 3.1
 	 *
 	 * @param string $file_content Content to minify.
-	 *
 	 * @return Minifier\CSS
 	 */
 	protected function get_minifier( $file_content ) {

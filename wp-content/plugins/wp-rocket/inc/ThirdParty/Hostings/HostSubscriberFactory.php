@@ -37,8 +37,6 @@ class HostSubscriberFactory implements SubscriberFactoryInterface {
 				return new WordPressCom();
 			case 'savvii':
 				return new Savvii();
-			case 'dreampress':
-				return new Dreampress();
 			default:
 				return new NullSubscriber();
 		}

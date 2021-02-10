@@ -14,12 +14,11 @@ use WP_Rocket\Engine\Preload\Sitemap;
  *
  * @param string $spider (default: 'cache-preload') The spider name: cache-preload or cache-json.
  * @param string $lang (default: '') The language code to preload.
- *
- * @return bool Status of preload.
+ * @return false
  */
 function run_rocket_bot( $spider = 'cache-preload', $lang = '' ) { // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals
 	if ( ! get_rocket_option( 'manual_preload' ) ) {
-		return false;
+		return;
 	}
 
 	$urls = [];
@@ -33,8 +32,6 @@ function run_rocket_bot( $spider = 'cache-preload', $lang = '' ) { // phpcs:igno
 	$homepage_preload = new Homepage( new FullProcess() );
 
 	$homepage_preload->preload( $urls );
-
-	return true;
 }
 
 /**

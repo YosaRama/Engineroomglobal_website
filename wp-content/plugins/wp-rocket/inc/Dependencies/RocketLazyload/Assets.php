@@ -103,11 +103,11 @@ class Assets {
                     mutations.forEach(function(mutation) {
                         for (i = 0; i < mutation.addedNodes.length; i++) {
                             if (typeof mutation.addedNodes[i].getElementsByTagName !== \'function\') {
-                                continue;
+                                return;
                             }
 
                            if (typeof mutation.addedNodes[i].getElementsByClassName !== \'function\') {
-                                continue;
+                                return;
                             }
 
                             images = mutation.addedNodes[i].getElementsByTagName(\'img\');

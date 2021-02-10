@@ -5,6 +5,7 @@ namespace WP_Rocket\Traits;
  * Statically store values.
  *
  * @since  3.3
+ * @author Grégory Viguier
  */
 trait Memoize {
 
@@ -13,6 +14,8 @@ trait Memoize {
 	 *
 	 * @var    array
 	 * @since  3.3
+	 * @access private
+	 * @author Grégory Viguier
 	 */
 	private static $memoized = [];
 
@@ -20,6 +23,8 @@ trait Memoize {
 	 * Tell if a value is memoized.
 	 *
 	 * @since  3.3
+	 * @access public
+	 * @author Grégory Viguier
 	 *
 	 * @param  string $method Name of the method.
 	 * @param  array  $args   Arguments passed to the parent method. It is used to build a hash.
@@ -34,6 +39,8 @@ trait Memoize {
 	 * Get a stored value.
 	 *
 	 * @since  3.3
+	 * @access public
+	 * @author Grégory Viguier
 	 *
 	 * @param  string $method Name of the method.
 	 * @param  array  $args   Arguments passed to the parent method. It is used to build a hash.
@@ -48,6 +55,8 @@ trait Memoize {
 	 * Cache a value.
 	 *
 	 * @since  3.3
+	 * @access public
+	 * @author Grégory Viguier
 	 *
 	 * @param  string $method Name of the method.
 	 * @param  array  $args   Arguments passed to the parent method. It is used to build a hash.
@@ -69,11 +78,13 @@ trait Memoize {
 	 * Create a hash based on an array of arguments.
 	 *
 	 * @since  3.3
+	 * @access private
+	 * @author Grégory Viguier
 	 *
 	 * @param  array $args An array of arguments.
 	 * @return string
 	 */
-	private static function get_memoize_args_hash( $args ) {
+	final private static function get_memoize_args_hash( $args ) {
 		if ( [] === $args ) {
 			return 'd751713988987e9331980363e24189ce'; // `md5( json_encode( [] ) )`
 		}

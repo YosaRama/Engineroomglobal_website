@@ -65,7 +65,7 @@ abstract class AbstractOptimization {
 	 * @param string $html HTML content.
 	 * @return bool|array
 	 */
-	protected function find( string $pattern, string $html ) {
+	protected function find( $pattern, $html ) {
 		preg_match_all( '/' . $pattern . '/Umsi', $html, $matches, PREG_SET_ORDER );
 
 		if ( empty( $matches ) ) {

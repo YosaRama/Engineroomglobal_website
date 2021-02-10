@@ -4,7 +4,6 @@ namespace WP_Rocket\Engine\Optimization\Minify\JS;
 use WP_Rocket\Dependencies\Minify\JS as MinifyJS;
 use WP_Rocket\Admin\Options_Data;
 use WP_Rocket\Engine\Optimization\AssetsLocalCache;
-use WP_Rocket\Engine\Optimization\DeferJS\DeferJS;
 use WP_Rocket\Engine\Optimization\Minify\ProcessorInterface;
 use WP_Rocket\Logger\Logger;
 
@@ -24,13 +23,13 @@ class Combine extends AbstractJSOptimization implements ProcessorInterface {
 	private $minifier;
 
 	/**
-	 * Excluded defer JS pattern
+	 * JQuery URL
 	 *
-	 * @since 3.8
+	 * @since 3.1
 	 *
-	 * @var string
+	 * @var array
 	 */
-	private $excluded_defer_js;
+	private $jquery_urls;
 
 	/**
 	 * Scripts to combine
@@ -58,13 +57,12 @@ class Combine extends AbstractJSOptimization implements ProcessorInterface {
 	 * @param Options_Data     $options     Plugin options instance.
 	 * @param MinifyJS         $minifier    Minifier instance.
 	 * @param AssetsLocalCache $local_cache Assets local cache instance.
-	 * @param DeferJS          $defer_js    Defer JS instance.
 	 */
-	public function __construct( Options_Data $options, MinifyJS $minifier, AssetsLocalCache $local_cache, DeferJS $defer_js ) {
+	public function __construct( Options_Data $options, MinifyJS $minifier, AssetsLocalCache $local_cache ) {
 		parent::__construct( $options, $local_cache );
 
-		$this->minifier          = $minifier;
-		$this->excluded_defer_js = implode( '|', $defer_js->get_excluded() );
+		$this->minifier    = $minifier;
+		$this->jquery_urls = $this->get_jquery_urls();
 	}
 
 	/**
@@ -159,26 +157,30 @@ class Combine extends AbstractJSOptimization implements ProcessorInterface {
 	 * @return array
 	 */
 	protected function parse( $scripts ) {
-		$excluded_externals = implode( '|', $this->get_excluded_external_file_path() );
-		$scripts            = array_map(
-			function( $script ) use ( $excluded_externals ) {
+		$scripts = array_map(
+			function( $script ) {
 				preg_match( '/<script\s+([^>]+[\s\'"])?src\s*=\s*[\'"]\s*?(?<url>[^\'"]+\.js(?:\?[^\'"]*)?)\s*?[\'"]([^>]+)?\/?>/Umsi', $script[0], $matches );
 
 				if ( isset( $matches['url'] ) ) {
 					if ( $this->is_external_file( $matches['url'] ) ) {
-						if ( preg_match( '#(' . $excluded_externals . ')#', $matches['url'] ) ) {
-							Logger::debug(
-								'Script is external.',
-								[
-									'js combine process',
-									'tag' => $matches[0],
-								]
-							);
-							return;
+						foreach ( $this->get_excluded_external_file_path() as $excluded_file ) {
+							if ( false !== strpos( $matches['url'], $excluded_file ) ) {
+								Logger::debug(
+									'Script is external.',
+									[
+										'js combine process',
+										'tag' => $matches[0],
+									]
+								);
+								return;
+							}
 						}
 
-						if ( $this->is_defer_excluded( $matches['url'] ) ) {
-							return;
+						if ( ! empty( $this->jquery_urls ) ) {
+							$jquery_urls = implode( '|', $this->jquery_urls );
+							if ( preg_match( '#^(' . $jquery_urls . ')$#', rocket_remove_url_protocol( strtok( $matches['url'], '?' ) ) ) ) {
+								return;
+							}
 						}
 
 						$this->scripts[] = [
@@ -200,11 +202,7 @@ class Combine extends AbstractJSOptimization implements ProcessorInterface {
 						return;
 					}
 
-					if ( $this->is_defer_excluded( $matches['url'] ) ) {
-						return;
-					}
-
-					$file_path = $this->get_file_path( strtok( $matches['url'], '?' ) );
+					$file_path = $this->get_file_path( $matches['url'] );
 
 					if ( ! $file_path ) {
 						return;
@@ -623,7 +621,6 @@ class Combine extends AbstractJSOptimization implements ProcessorInterface {
 			'scriptParams',
 			'form-adv-pagination',
 			'borlabsCookiePrioritize',
-			'urls_wpwidgetpolylang',
 			'quickViewNonce',
 			'frontendscripts_params',
 			'nj-facebook-messenger',
@@ -639,51 +636,8 @@ class Combine extends AbstractJSOptimization implements ProcessorInterface {
 			'archives-dropdown',
 			'loftloaderCache',
 			'SmartSliderSimple',
-			'var nectarLove',
-			'var incOpt',
 			'RocketBrowserCompatibilityChecker',
 			'RocketPreloadLinksConfig',
-			'placementVersionId',
-			'var useEdit',
-			'var DTGS_NONCE_FRONTEND',
-			'n2jQuery',
-			'et_core_api_spam_recaptcha',
-			'cnArgs',
-			'__CF$cv$params',
-			'trustbox_settings',
-			'aepro',
-			'cdn.jst.ai',
-			'w2dc_fields_in_categories',
-			'aepc_pixel',
-			'avadaWooCommerceVars',
-			'var isb',
-			'fcaPcPost',
-			'csrf_token',
-			'icwp_wpsf_vars_lpantibot',
-			'wpvViewHead',
-			'ed_school_plugin',
-			'aps_comp_',
-			'guaven_woos',
-			'__lm_redirect_to',
-			'__wpdm_view_count',
-			'bookacti.booking_system',
-			'nfFrontEnd',
-			'view_quote_cart_link',
-			'__eae_decode_emails',
-			'divioverlays_ajaxurl',
-			'var _EPYT_',
-			'#ins-heading-',
-			'#ins-button-',
-			'tve_frontend_options',
-			'lb24.src',
-			'amazon_Login_accessToken',
-			'porto_infinite_scroll',
-			'.adace-loader-',
-			'adace_load_',
-			'tagGroupsAccordiontaggroupscloudaccordion',
-			'tagGroupsTabstaggroupscloudtabs',
-			'jrRelatedWidgets',
-			'UNCODE.initRow',
 		];
 
 		$excluded_inline = array_merge( $defaults, $this->options->get( 'exclude_inline_js', [] ) );
@@ -808,11 +762,6 @@ class Combine extends AbstractJSOptimization implements ProcessorInterface {
 			'wp_post_blocks_vars.listed_posts=[',
 			'captcha-hash',
 			'mapdata={',
-			'.ywpc-char-',
-			').countdowntimer(',
-			'jQuery("#td_uid_',
-			'find(\'#td_uid_',
-			'variation_estimate_msg',
 		];
 
 		/**
@@ -867,30 +816,4 @@ class Combine extends AbstractJSOptimization implements ProcessorInterface {
 		return false !== strpos( $script_attributes, 'data-rocketlazyloadscript=' );
 	}
 
-	/**
-	 * Checks if the current URL is excluded from defer JS
-	 *
-	 * @since 3.8
-	 *
-	 * @param string $url URL to check.
-	 * @return boolean
-	 */
-	private function is_defer_excluded( string $url ) : bool {
-		if (
-			! empty( $this->excluded_defer_js )
-			&&
-			preg_match( '#(' . $this->excluded_defer_js . ')#i', $url )
-		) {
-			Logger::debug(
-				'Script is excluded from defer JS.',
-				[
-					'js combine process',
-					'url' => $url,
-				]
-			);
-			return true;
-		}
-
-		return false;
-	}
 }

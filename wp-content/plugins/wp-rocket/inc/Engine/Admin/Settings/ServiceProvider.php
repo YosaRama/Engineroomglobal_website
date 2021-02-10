@@ -42,8 +42,7 @@ class ServiceProvider extends AbstractServiceProvider {
 			->withArgument( $this->getContainer()->get( 'settings' ) )
 			->withArgument( $this->getContainer()->get( 'settings_render' ) )
 			->withArgument( $this->getContainer()->get( 'beacon' ) )
-			->withArgument( $this->getContainer()->get( 'db_optimization' ) )
-			->withArgument( $this->getContainer()->get( 'user_client' ) );
+			->withArgument( $this->getContainer()->get( 'db_optimization' ) );
 		$this->getContainer()->share( 'settings_page_subscriber', 'WP_Rocket\Engine\Admin\Settings\Subscriber' )
 			->withArgument( $this->getContainer()->get( 'settings_page' ) );
 	}

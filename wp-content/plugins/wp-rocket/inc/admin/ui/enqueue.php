@@ -14,20 +14,10 @@ function rocket_add_admin_css_js() {
 	wp_localize_script(
 		'wpr-admin',
 		'rocket_ajax_data',
-		/**
-		 * Filters the data passed to the localize script function for WP Rocket admin JS
-		 *
-		 * @since 3.7.4
-		 *
-		 * @param array $data Localize script data.
-		 */
-		apply_filters(
-			'rocket_localize_admin_script',
-			[
-				'nonce'      => wp_create_nonce( 'rocket-ajax' ),
-				'origin_url' => untrailingslashit( rocket_get_constant( 'WP_ROCKET_WEB_MAIN' ) ),
-			]
-		)
+		[
+			'nonce'      => wp_create_nonce( 'rocket-ajax' ),
+			'origin_url' => untrailingslashit( rocket_get_constant( 'WP_ROCKET_WEB_MAIN' ) ),
+		]
 	);
 
 	if ( is_rtl() ) {

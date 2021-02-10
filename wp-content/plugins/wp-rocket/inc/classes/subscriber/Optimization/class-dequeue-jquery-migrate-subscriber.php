@@ -1,7 +1,6 @@
 <?php
 namespace WP_Rocket\Subscriber\Optimization;
 
-use WP_Rocket\deprecated\DeprecatedClassTrait;
 use WP_Rocket\Event_Management\Subscriber_Interface;
 use WP_Rocket\Admin\Options_Data as Options;
 use WP_Scripts;
@@ -13,7 +12,6 @@ use WP_Scripts;
  * @author Soponar Cristina
  */
 class Dequeue_JQuery_Migrate_Subscriber implements Subscriber_Interface {
-	use DeprecatedClassTrait;
 	/**
 	 * Plugin options
 	 *
@@ -33,7 +31,6 @@ class Dequeue_JQuery_Migrate_Subscriber implements Subscriber_Interface {
 	 * @param Options $options Plugin options.
 	 */
 	public function __construct( Options $options ) {
-		self::deprecated_class( '3.8' );
 		$this->options = $options;
 	}
 

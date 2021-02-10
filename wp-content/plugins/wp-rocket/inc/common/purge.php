@@ -166,13 +166,13 @@ function rocket_clean_post( $post_id, $post = null ) {
 	static $done = [];
 
 	if ( isset( $done[ $post_id ] ) ) {
-		return false;
+		return;
 	}
 
 	$done[ $post_id ] = 1;
 
 	if ( defined( 'DOING_AUTOSAVE' ) ) {
-		return false;
+		return;
 	}
 
 	$purge_urls = [];
@@ -184,18 +184,18 @@ function rocket_clean_post( $post_id, $post = null ) {
 
 	// Return if $post is not an object.
 	if ( ! is_object( $post ) ) {
-		return false;
+		return;
 	}
 
 	// No purge for specific conditions.
 	if ( 'auto-draft' === $post->post_status || 'draft' === $post->post_status || empty( $post->post_type ) || 'nav_menu_item' === $post->post_type || 'attachment' === $post->post_type ) {
-		return false;
+		return;
 	}
 
 	// Don't purge if post's post type is not public or not publicly queryable.
 	$post_type = get_post_type_object( $post->post_type );
 	if ( ! is_object( $post_type ) || true !== $post_type->public ) {
-		return false;
+		return;
 	}
 
 	// Get the post language.
@@ -251,8 +251,6 @@ function rocket_clean_post( $post_id, $post = null ) {
 	 * @param string  $lang       The post language
 	 */
 	do_action( 'after_rocket_clean_post', $post, $purge_urls, $lang ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals
-
-	return true;
 }
 add_action( 'wp_trash_post',           'rocket_clean_post' );
 add_action( 'delete_post',             'rocket_clean_post' );
